@@ -1,0 +1,30 @@
+engage for change	10	3
+Cambridge Zero	-2	33
+Cambridge sustainability food	-21	24
+Ethical Network	-10	-5
+Cambridge Hub	-8	3
+CUSU Ethical Affairs	13	0
+Climate and Sustainability Forum	7	-3
+UoC Environment and Energy Section	14	16
+Living Laboratory for Sustainability	2	14
+Student Switch-Off	-3	7
+Cambridge Carbon Footprint	-10	27
+Positive Investment Cambridge	3	20
+CU Energy Network	12	34
+CU Environmental Consulting Society	20	27
+Green Impact Cambridge	10	-6
+Transition Cambridge	-2	24
+CU Marine Conservation Society	30	18
+CU Wildlife Conservation Trust	32	24
+CU Nature Society	37	16
+CU Vegan Society	-19	15
+Cambridge Sustainable Food (CSF)	-16	10
+Foodcycle	-11	18
+CU Foodbank Society	-24	18
+The Cambridge Green Challenge	7	10
+Banking Environment Initiative	25	5
+FINANCE	25	8
+CARBON/ENERGY	2	30
+NATURE/BIODIVERSITY	36	21
+FOOD	-16	21
+OUTREACH	-3	0
