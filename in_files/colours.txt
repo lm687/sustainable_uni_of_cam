@@ -1,30 +1,58 @@
-engage for change	1
-Cambridge Zero	2
-Cambridge sustainability food	3
-Ethical Network	1
-Cambridge Hub	1
-CUSU Ethical Affairs	1
-Climate and Sustainability Forum	1
-UoC Environment and Energy Section	2
-Living Laboratory for Sustainability	1
-Student Switch-Off	1
-Cambridge Carbon Footprint	2
-Positive Investment Cambridge	2
-CU Energy Network	2
-CU Environmental Consulting Society	2
-Green Impact Cambridge	1
-Transition Cambridge	2
-CU Marine Conservation Society	4
-CU Wildlife Conservation Trust	4
-CU Nature Society	4
-CU Vegan Society	3
-Cambridge Sustainable Food (CSF)	3
-Foodcycle	3
-CU Foodbank Society	3
-The Cambridge Green Challenge	1
-Banking Environment Initiative	0
-CARBON/ENERGY	2
-NATURE/BIODIVERSITY	4
-FOOD	3
-OUTREACH	1
-FINANCE	0
+engage for change	1	https://www.cambridgehub.org/activities/engage-for-change
+Cambridge Zero	2	https://www.zero.cam.ac.uk/
+Cambridge sustainability food	3	google.com/
+Ethical Network	1	google.com/
+Cambridge Hub	1	google.com/
+CUSU Ethical Affairs	1	google.com/
+Climate and Sustainability Forum	1	google.com/
+UoC Environment and Energy Section	2	google.com/
+Living Laboratory for Sustainability	1	google.com/
+Student Switch-Off	1	google.com/
+Cambridge Carbon Footprint	2	google.com/
+Positive Investment Cambridge	2	google.com/
+CU Energy Network	2	google.com/
+CU Environmental Consulting Society	2	google.com/
+Green Impact Cambridge	1	google.com/
+Transition Cambridge	2	google.com/
+CU Marine Conservation Society	4	google.com/
+CU Wildlife Conservation Trust	4	google.com/
+CU Nature Society	4	google.com/
+CU Vegan Society	3	google.com/
+Cambridge Sustainable Food (CSF)	3	google.com/
+Foodcycle	3	google.com/
+CU Foodbank Society	3	google.com/
+The Cambridge Green Challenge	1	google.com/
+Banking Environment Initiative	0	google.com/
+CARBON/ENERGY	2	google.com/
+NATURE/BIODIVERSITY	4	google.com/
+FOOD	3	google.com/
+OUTREACH	1	
+FINANCE	0	google.com/
+Science and Policy Exchange	5	google.com/
+Cambridge Development Initiative	5	google.com/
+Cambridge Conservation Forum	4	google.com/
+Cambridge Conservation Initiative	4	google.com/
+Cambridge food hub	3	google.com/
+Edible Garden	4	google.com/
+Cam valley forum	4	google.com/
+Environmental Improvement Programme	4	google.com/
+Cambridge Conservation Volunteers	4	google.com/
+CambridgeEnvironmentStrategy	5	google.com/
+Cambridge Institute for Sustainability Leadership	5	google.com/
+Greater Cambridge Greenways	8	google.com/
+cambridgereuse	6	google.com/
+circularcambridge	6	google.com/
+SCOOP Cambridge	6	google.com/
+louderthanthestorm	1	google.com/
+cambridgedoughnut	5	google.com/
+Cambridge Carbon Literacy	2	google.com/
+Warp It	6	google.com/
+Green Society of Wolfson College	1	google.com/
+Built Environment	8	
+Sustainability and Conservation Interdisciplinary Research Hub	4	google.com/
+cambridgecarbonmap	2	google.com/
+center	9	google.com/
+Reuse and recycle	6	google.com/
+DEVELOPMENT	5	google.com/
+Travel	8	google.com/
+Infrastructure	8	google.com/

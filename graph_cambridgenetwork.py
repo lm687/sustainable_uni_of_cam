@@ -32,13 +32,13 @@ colours = colours.reindex([colours[0].tolist().index(j) for j in adj_mat.columns
 pos_dict = {pos.loc[i][0]: np.array([pos.loc[i][1], pos.loc[i][2]]) for i in range(num_nodes)}
 
 ## convert numbers to colours
-colours_list = ([['blue', 'red', 'yellow', 'orange', 'green'][i] for i in colours[1]])
+colours_list = ([['blue', 'red', 'yellow', 'orange', 'green', 'black', 'purple', 'cyan', 'pink', 'white'][i] for i in colours[1]])
 
 ## Plot
 nx.draw(G, pos_dict,  node_color=colours_list, node_size=400, alpha=0.2, cmap=plt.cm.Blues)
 nx.draw_networkx_labels(G, pos_dict, labels, font_size=7, alpha=1)
 plt.text(43.5,-9,s='Lena Morrill 2020',size=7, horizontalalignment='center')#, bbox=dict(facecolor='white', alpha=0.5))
-plt.xlim(-35,50)
-plt.ylim(-10,35)
+plt.xlim(-45,60)
+plt.ylim(-30,45)
 plt.savefig("figures/Cambridge_initiatives_climate_and_sustainability.pdf")
 plt.savefig("figures/Cambridge_initiatives_climate_and_sustainability.png", dpi=300)

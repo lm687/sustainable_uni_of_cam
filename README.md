@@ -2,3 +2,6 @@
 
 ![graph of initiatives for sustainibility and climate action at the university of cambridge](figures/Cambridge_initiatives_climate_and_sustainability.png)
 
+To see the interactive plot, click [here](html_files.html)
+
+

@@ -28,3 +28,31 @@ CARBON/ENERGY	2	30
 NATURE/BIODIVERSITY	36	21
 FOOD	-16	21
 OUTREACH	-3	0
+Science and Policy Exchange	30	0
+Cambridge Development Initiative	5	19
+Cambridge Conservation Forum	40	29
+Cambridge Conservation Initiative	40	28
+Cambridge food hub	-35	30
+Edible Garden	36	33
+Cam valley forum	40	27
+Environmental Improvement Programme	50	28
+Cambridge Conservation Volunteers	50	32
+CambridgeEnvironmentStrategy	5	15
+Cambridge Institute for Sustainability Leadership	5	17
+Greater Cambridge Greenways	-36	-20
+cambridgereuse	36	38
+circularcambridge	36	40
+SCOOP Cambridge	56	36
+louderthanthestorm	-15	-15
+cambridgedoughnut	25	12
+Cambridge Carbon Literacy	-20	40
+Warp It	36	36
+Green Society of Wolfson College	-15	-4
+Built Environment	-14	-10
+Sustainability and Conservation Interdisciplinary Research Hub	5	15
+cambridgecarbonmap	-18	30
+center	0	0
+Reuse and recycle	0	0
+DEVELOPMENT	0	0
+Travel	0	0
+Infrastructure	0	0
