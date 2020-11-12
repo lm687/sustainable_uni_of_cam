@@ -1,0 +1,40 @@
+setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+rm(list = ls())
+
+library(visNetwork)
+
+adj_mat = read.csv("in_files/adjacency_matrix.csv", check.names = FALSE)
+rownames(adj_mat) = adj_mat[,1]
+adj_mat = adj_mat[,-1]
+adj_mat = adj_mat[match(colnames(adj_mat),rownames(adj_mat)),]
+colours = read.table("in_files/colours.txt", stringsAsFactors = FALSE, sep = "\t")
+
+# matched_colours = colours$V2[match(colours$V1, colnames(adj_mat))]
+colours = colours[match(colnames(adj_mat), colours$V1),]
+matched_colours = colours$V2
+matched_colours = matched_colours + 1 ## from 0-indexed to 1-indexed
+matched_urls = colours$V3
+
+colour_mapping = data.frame(idx=1:10, colour=c('blue', 'red', 'yellow', 'orange', 'green', 'black', 'purple', 'cyan', 'pink', 'white'))
+matched_colours = colour_mapping[matched_colours,'colour']
+
+adj_mat_df = data.frame(t(do.call('cbind', sapply(1:ncol(adj_mat), FUN =  function(i){
+  sapply(which(adj_mat[i,] == 1), function(j) c(colnames(adj_mat)[i],colnames(adj_mat)[j]))
+  }))))
+colnames(adj_mat_df) = c('to', 'from')
+
+labels = colnames(adj_mat)
+# matched_colours[labels == "center"] = NA
+labels[labels == "center"] = "Cambridge network"
+
+nodes <- data.frame(id = colnames(adj_mat), label=labels,
+                    color=matched_colours)
+nodes$url <- matched_urls
+edges <- adj_mat_df
+graph = visNetwork(nodes, edges, width = "100%") %>% visEvents(selectNode = 
+                                                    "function(params) {
+    var nodeID = params.nodes[0];
+    var url = this.body.nodes[nodeID].options.url;
+    window.open(url, '_blank');
+   }")
+visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
