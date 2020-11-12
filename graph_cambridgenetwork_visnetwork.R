@@ -1,7 +1,10 @@
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 rm(list = ls())
 
+set.seed(234)
+
 library(visNetwork)
+library(viridisLite)
 
 adj_mat = read.csv("in_files/adjacency_matrix.csv", check.names = FALSE)
 rownames(adj_mat) = adj_mat[,1]
@@ -14,8 +17,9 @@ colours = colours[match(colnames(adj_mat), colours$V1),]
 matched_colours = colours$V2
 matched_colours = matched_colours + 1 ## from 0-indexed to 1-indexed
 matched_urls = colours$V3
-
-colour_mapping = data.frame(idx=1:10, colour=c('blue', 'red', 'yellow', 'orange', 'green', 'black', 'purple', 'cyan', 'pink', 'white'))
+#                                               'blue', 'red',        carbon', 'orange', 'outreach', 'greyishgreen', 'purple', 'cyan', '#afeeee', center
+# colour_mapping = data.frame(idx=1:10, colour=c('#55CBD3', '#FE8E7B', '#fff1a0', '#FFB68C', '#FF6787', '#C7DAC7', '#7b68ee', 'cyan', '#2DA6AE', 'white'))
+colour_mapping = data.frame(idx=1:10, colour=viridisLite::magma(10))
 matched_colours = colour_mapping[matched_colours,'colour']
 
 adj_mat_df = data.frame(t(do.call('cbind', sapply(1:ncol(adj_mat), FUN =  function(i){
@@ -37,4 +41,6 @@ graph = visNetwork(nodes, edges, width = "100%") %>% visEvents(selectNode =
     var url = this.body.nodes[nodeID].options.url;
     window.open(url, '_blank');
    }")
+graph$sizingPolicy$browser$fill <- TRUE
+graph
 visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
