@@ -35,7 +35,7 @@ nodes <- data.frame(id = colnames(adj_mat), label=labels,
                     color=matched_colours)
 nodes$url <- matched_urls
 edges <- adj_mat_df
-nodes$font.size = log(matched_fontsizes+1)*25
+nodes$font.size = log(matched_fontsizes+2)*16
 nodes[nodes$label == "Cambridge network","image"] = "https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~mv2.png"
 nodes$shape = "dot"
 nodes[nodes$label == "Cambridge network","shape"] = "image"
@@ -51,5 +51,5 @@ graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
 graph$sizingPolicy$browser$fill <- TRUE
 graph
 
-visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
+# visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
 
