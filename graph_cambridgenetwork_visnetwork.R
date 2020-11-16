@@ -17,6 +17,7 @@ colours = colours[match(colnames(adj_mat), colours$V1),]
 matched_colours = colours$V2
 matched_colours = matched_colours + 1 ## from 0-indexed to 1-indexed
 matched_urls = colours$V3
+matched_fontsizes = colours$V4
 #                                               'blue', 'red',        carbon', 'orange', 'outreach', 'greyishgreen', 'purple', 'cyan', '#afeeee', center
 # colour_mapping = data.frame(idx=1:10, colour=c('#55CBD3', '#FE8E7B', '#fff1a0', '#FFB68C', '#FF6787', '#C7DAC7', '#7b68ee', 'cyan', '#2DA6AE', 'white'))
 colour_mapping = data.frame(idx=1:10, colour=viridisLite::magma(10))
@@ -35,7 +36,8 @@ nodes <- data.frame(id = colnames(adj_mat), label=labels,
                     color=matched_colours)
 nodes$url <- matched_urls
 edges <- adj_mat_df
-graph = visNetwork(nodes, edges, width = "100%") %>% visEvents(selectNode = 
+nodes$font.size = log(matched_fontsizes+0.8)*30
+graph = visNetwork(nodes, edges, width = "100%", height=700) %>% visEvents(selectNode = 
                                                     "function(params) {
     var nodeID = params.nodes[0];
     var url = this.body.nodes[nodeID].options.url;

@@ -1,58 +1,58 @@
-engage for change	1	https://www.cambridgehub.org/activities/engage-for-change
-Cambridge Zero	2	https://www.zero.cam.ac.uk/
-Cambridge sustainable food	3	https://cambridgesustainablefood.org/
-Ethical Network	1	https://www.cambridgehub.org/activities/ethical-network
-Cambridge Hub	1	https://www.cambridgehub.org/
-CUSU Ethical Affairs	1	https://www.cusu.co.uk/about/cusu-campaigns/ethical-affairs/
-Climate and Sustainability Forum	1	https://www.facebook.com/CambridgeClimateForum/
-UoC Environment and Energy Section	2	https://www.environment.admin.cam.ac.uk/
-Living Laboratory for Sustainability	1	https://www.environment.admin.cam.ac.uk/living-lab
-Student Switch-Off	1	http://studentswitchoff.org/unis/cambridge/
-Cambridge Carbon Footprint	2	https://cambridgecarbonfootprint.org/
-Positive Investment Cambridge	2	http://positiveinvest.org/
-CU Energy Network	2	https://www.google.com/search?client=firefox-b-d&q=cambridge+Energy+Network
-CU Environmental Consulting Society	2	https://www.cusu.co.uk/societies/directory/cuecs/
-Green Impact Cambridge	1	https://www.environment.admin.cam.ac.uk/green-impact
-Transition Cambridge	2	https://www.transitioncambridge.org/
-CU Marine Conservation Society	4	https://www.cusu.co.uk/societies/directory/marineconservsoc/
-CU Wildlife Conservation Trust	4	https://cuwcs.soc.srcf.net/
-CU Nature Society	4	https://en-gb.facebook.com/groups/451300958255085/
-CU Vegan Society	3	https://www.facebook.com/camvegansoc/
-Cambridge Sustainable Food (CSF)	3	https://cambridgesustainablefood.org/
-Foodcycle	3	https://www.foodcycle.org.uk/get-involved/chris-king-photography_foodcycle-cambridge-17/
-CU Foodbank Society	3	https://www.facebook.com/CUFoodbankSociety/
-The Cambridge Green Challenge	1	https://www.environment.admin.cam.ac.uk/cambridge-green-challenge
-Banking Environment Initiative	0	https://www.cisl.cam.ac.uk/business-action/sustainable-finance/banking-environment-initiative
-CARBON/ENERGY	2	
-NATURE/BIODIVERSITY	4	
-FOOD	3	
-OUTREACH	1	
-FINANCE	0	
-Science and Policy Exchange	5	http://www.cuspe.org/
-Cambridge Development Initiative	5	http://www.cambridgedevelopment.org/
-Cambridge Conservation Forum	4	https://www.cambridgeconservationforum.org.uk/
-Cambridge Conservation Initiative	4	https://www.cambridgeconservation.org/
-Cambridge food hub	3	https://cambridgefoodhub.org/
-Edible Garden	4	https://www.cambridgehub.org/activities/edible-garden
-Cam valley forum	4	https://camvalleyforum.uk/
-Environmental Improvement Programme	4	https://www.cambridge.gov.uk/environmental-improvement-programme
-Cambridge Conservation Volunteers	4	https://www.ccv.org.uk/
-CambridgeEnvironmentStrategy	5	https://www.environment.admin.cam.ac.uk/policy
-Cambridge Institute for Sustainability Leadership	5	https://www.cisl.cam.ac.uk/
-Greater Cambridge Greenways	8	https://www.greatercambridge.org.uk/transport/transport-projects/greenways
-cambridgereuse	6	http://www.cambridgereuse.org.uk/
-circularcambridge	6	circularcambridge.org
-SCOOP Cambridge	6	https://www.facebook.com/scoopcambridge/
-louderthanthestorm	1	https://www.louderthanthestorm.com/
-cambridgedoughnut	5	https://cambridgedoughnut.org.uk/
-Cambridge Carbon Literacy	2	https://www.cambridgehub.org/activities/carbon-literacy
-Warp It	6	https://www.warp-it.co.uk/
-Green Society of Wolfson College	1	https://www.wolfson.cam.ac.uk/current-students/societies/green-society-wolfson-college
-Built Environment	8	https://www.ice.cam.ac.uk/course/mst-interdisciplinary-design-built-environment
-Sustainability and Conservation Interdisciplinary Research Hub	4	https://www.wolfson.cam.ac.uk/interdisciplinary-research-hubs/sustainability-conservation-interdisciplinary-research-hub
-cambridgecarbonmap	2	https://cambridgecarbonmap.org/
-center	9	
-Reuse and recycle	6	
-DEVELOPMENT	5	
-Travel	8	
-Infrastructure	8	
+engage for change	1	https://www.cambridgehub.org/activities/engage-for-change	1
+Cambridge Zero	2	https://www.zero.cam.ac.uk/	1
+Cambridge sustainable food	3	https://cambridgesustainablefood.org/	1
+Ethical Network	1	https://www.cambridgehub.org/activities/ethical-network	1
+Cambridge Hub	1	https://www.cambridgehub.org/	1
+CUSU Ethical Affairs	1	https://www.cusu.co.uk/about/cusu-campaigns/ethical-affairs/	1
+Climate and Sustainability Forum	1	https://www.facebook.com/CambridgeClimateForum/	1
+UoC Environment and Energy Section	2	https://www.environment.admin.cam.ac.uk/	1
+Living Laboratory for Sustainability	1	https://www.environment.admin.cam.ac.uk/living-lab	1
+Student Switch-Off	1	http://studentswitchoff.org/unis/cambridge/	1
+Cambridge Carbon Footprint	2	https://cambridgecarbonfootprint.org/	1
+Positive Investment Cambridge	2	http://positiveinvest.org/	1
+CU Energy Network	2	https://www.google.com/search?client=firefox-b-d&q=cambridge+Energy+Network	1
+CU Environmental Consulting Society	2	https://www.cusu.co.uk/societies/directory/cuecs/	1
+Green Impact Cambridge	1	https://www.environment.admin.cam.ac.uk/green-impact	1
+Transition Cambridge	2	https://www.transitioncambridge.org/	1
+CU Marine Conservation Society	4	https://www.cusu.co.uk/societies/directory/marineconservsoc/	1
+CU Wildlife Conservation Trust	4	https://cuwcs.soc.srcf.net/	1
+CU Nature Society	4	https://en-gb.facebook.com/groups/451300958255085/	1
+CU Vegan Society	3	https://www.facebook.com/camvegansoc/	1
+Cambridge Sustainable Food (CSF)	3	https://cambridgesustainablefood.org/	1
+Foodcycle	3	https://www.foodcycle.org.uk/get-involved/chris-king-photography_foodcycle-cambridge-17/	1
+CU Foodbank Society	3	https://www.facebook.com/CUFoodbankSociety/	1
+The Cambridge Green Challenge	1	https://www.environment.admin.cam.ac.uk/cambridge-green-challenge	1
+Banking Environment Initiative	0	https://www.cisl.cam.ac.uk/business-action/sustainable-finance/banking-environment-initiative	1
+Carbon/Energy	2		2
+Nature/Biodiversity	4		2
+Food	3		2
+Outreach	1		2
+Finance	0		2
+Science and Policy Exchange	5	http://www.cuspe.org/	1
+Cambridge Development Initiative	5	http://www.cambridgedevelopment.org/	1
+Cambridge Conservation Forum	4	https://www.cambridgeconservationforum.org.uk/	1
+Cambridge Conservation Initiative	4	https://www.cambridgeconservation.org/	1
+Cambridge food hub	3	https://cambridgefoodhub.org/	1
+Edible Garden	4	https://www.cambridgehub.org/activities/edible-garden	1
+Cam valley forum	4	https://camvalleyforum.uk/	1
+Environmental Improvement Programme	4	https://www.cambridge.gov.uk/environmental-improvement-programme	1
+Cambridge Conservation Volunteers	4	https://www.ccv.org.uk/	1
+CambridgeEnvironmentStrategy	5	https://www.environment.admin.cam.ac.uk/policy	1
+Cambridge Institute for Sustainability Leadership	5	https://www.cisl.cam.ac.uk/	1
+Greater Cambridge Greenways	8	https://www.greatercambridge.org.uk/transport/transport-projects/greenways	1
+cambridgereuse	6	http://www.cambridgereuse.org.uk/	1
+circularcambridge	6	circularcambridge.org	1
+SCOOP Cambridge	6	https://www.facebook.com/scoopcambridge/	1
+louderthanthestorm	1	https://www.louderthanthestorm.com/	1
+cambridgedoughnut	5	https://cambridgedoughnut.org.uk/	1
+Cambridge Carbon Literacy	2	https://www.cambridgehub.org/activities/carbon-literacy	1
+Warp It	6	https://www.warp-it.co.uk/	1
+Green Society of Wolfson College	1	https://www.wolfson.cam.ac.uk/current-students/societies/green-society-wolfson-college	1
+Built Environment	8	https://www.ice.cam.ac.uk/course/mst-interdisciplinary-design-built-environment	1
+Sustainability and Conservation Interdisciplinary Research Hub	4	https://www.wolfson.cam.ac.uk/interdisciplinary-research-hubs/sustainability-conservation-interdisciplinary-research-hub	1
+cambridgecarbonmap	2	https://cambridgecarbonmap.org/	1
+center	9		3
+Reuse and recycle	6		2
+Development	5		2
+Travel	8		2
+Infrastructure	8		2
