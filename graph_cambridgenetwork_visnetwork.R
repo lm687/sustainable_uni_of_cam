@@ -38,41 +38,18 @@ edges <- adj_mat_df
 nodes$font.size = log(matched_fontsizes+1)*25
 nodes[nodes$label == "Cambridge network","image"] = "https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~mv2.png"
 nodes$shape = "dot"
-nodes[nodes$label == "Cambridge network","shape"] = "image" 
-graph = visNetwork(nodes, edges, size=1, width = "100%", height=700) %>% visEvents(selectNode = 
-                                                    "function(params) {
+nodes[nodes$label == "Cambridge network","shape"] = "image"
+graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
+                   main='Map of sustainability-related initiatives in Cambridge, UK',
+                   submain='Lena Morrill 2020') %>%
+  visEvents(selectNode =  "function(params) {
     var nodeID = params.nodes[0];
     var url = this.body.nodes[nodeID].options.url;
     window.open(url, '_blank');
    }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE))
+
 graph$sizingPolicy$browser$fill <- TRUE
 graph
 
-
-
 visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
 
-
-
-
-
-
-
-path_to_images <- "https://raw.githubusercontent.com/datastorm-open/datastorm-open.github.io/master/visNetwork/data/img/indonesia/"
-
-nodes2 <- data.frame(id = 1:4,
-                    shape = c("image", "circularImage"),
-                    image = paste0(path_to_images, 1:4, ".png"),
-                    label = "I'm an image")
-nodes2[1,'image'] = "https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~mv2.png"
-
-edges2 <- data.frame(from = c(2,4,3,3), to = c(1,2,4,2))
-
-visNetwork(nodes2, edges2, width = "100%") %>%
-  visNodes(shapeProperties = list(useBorderWithImage = TRUE)) %>%
-  visLayout(randomSeed = 2)
-
-nodes$shape = "image"
-visNetwork(nodes, edges, width = "100%") %>%
-  visNodes(shapeProperties = list(useBorderWithImage = TRUE)) %>%
-  visLayout(randomSeed = 2)
