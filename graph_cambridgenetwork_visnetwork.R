@@ -41,12 +41,12 @@ nodes$shape = "dot"
 nodes[nodes$label == "Cambridge network","shape"] = "image"
 graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
                    main='Map of sustainability-related initiatives in Cambridge, UK',
-                   submain='Lena Morrill 2020') %>%
+                   submain=paste0('Lena Morrill 2020\tLast updated: ', Sys.time())) %>%
   visEvents(selectNode =  "function(params) {
     var nodeID = params.nodes[0];
     var url = this.body.nodes[nodeID].options.url;
     window.open(url, '_blank');
-   }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE))
+   }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18)
 
 graph$sizingPolicy$browser$fill <- TRUE
 graph
