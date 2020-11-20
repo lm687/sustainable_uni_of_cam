@@ -54,10 +54,10 @@ graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
     var nodeID = params.nodes[0];
     var url = this.body.nodes[nodeID].options.url;
     window.open(url, '_blank');
-   }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) # L 42-49 Producing the graphic
+   }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18)
 
 # # # Resize to browser
-graph$sizingPolicy$browser$fill <- TRUE # Resizing to browser window
+graph$sizingPolicy$browser$fill <- TRUE
 
 graph # plot
   
