@@ -38,10 +38,11 @@ edges <- adj_mat_df
 nodes$font.size = log(matched_fontsizes+2)*16
 nodes[nodes$label == "Cambridge network","image"] = "https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~mv2.png"
 nodes$shape = "dot"
+nodes[nodes$label == "Development","shape"] = "text"
 nodes[nodes$label == "Cambridge network","shape"] = "image"
 graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
                    main='Map of sustainability-related initiatives in Cambridge, UK',
-                   submain=paste0('Lena Morrill 2020\tLast updated: ', Sys.time())) %>%
+                   submain=paste0('Lena Morrill 2020.\nLast updated: ', Sys.time(), ' GMT')) %>%
   visEvents(selectNode =  "function(params) {
     var nodeID = params.nodes[0];
     var url = this.body.nodes[nodeID].options.url;
@@ -51,5 +52,5 @@ graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
 graph$sizingPolicy$browser$fill <- TRUE
 graph
 
-# visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
+visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
 
