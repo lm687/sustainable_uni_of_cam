@@ -1,0 +1,83 @@
+to	from	Notes
+engage for change	Outreach	
+Cambridge Zero	Carbon/Energy	
+Ethical Network	Outreach	
+Cambridge Hub	Outreach	
+CUSU Ethical Affairs	Outreach	
+Climate and Sustainability Forum	Outreach	
+UoC Sustainability Team	Carbon/Energy	
+Living Laboratory for Sustainability	Outreach	
+Student Switch-Off	Outreach	
+Cambridge Carbon Footprint	Carbon/Energy	
+Positive Investment Cambridge	Carbon/Energy	
+CU Energy Network	Carbon/Energy	
+CU Environmental Consulting Society	Carbon/Energy	
+Green Impact Cambridge	Outreach	
+Transition Cambridge	Carbon/Energy	
+CU Marine Conservation Society	Nature/Biodiversity	
+CU Wildlife Conservation Trust	Nature/Biodiversity	
+CU Nature Society	Nature/Biodiversity	
+CU Vegan Society	Food	
+Cambridge Sustainable Food (CSF)	Food	
+Foodcycle	Food	
+CU Foodbank Society	Food	
+The Cambridge Green Challenge	Outreach	
+Banking Environment Initiative	Finance	
+Science and Policy Exchange	Development	
+Cambridge Development Initiative	Development	
+Cambridge Conservation Forum	Nature/Biodiversity	
+Cambridge Conservation Initiative	Nature/Biodiversity	
+Cambridge food hub	Food	
+Edible Garden	Nature/Biodiversity	
+Cam valley forum	Nature/Biodiversity	
+Environmental Improvement Programme	Nature/Biodiversity	
+Cambridge Conservation Volunteers	Nature/Biodiversity	
+CambridgeEnvironmentStrategy	Development	
+Cambridge Institute for Sustainability Leadership	Development	
+louderthanthestorm	Outreach	
+cambridgedoughnut	Development	
+Cambridge Carbon Literacy	Carbon/Energy	
+Green Society of Wolfson College	Outreach	
+Built Environment	Infrastructure	
+Sustainability and Conservation Interdisciplinary Research Hub	Nature/Biodiversity	
+cambridgecarbonmap	Carbon/Energy	
+Cambridge network	Nature/Biodiversity	
+Cambridge network	Carbon/Energy	
+Cambridge network	Food	
+Cambridge network	Outreach	
+Cambridge network	Finance	
+Cambridge network	Reuse and recycle	
+Cambridge network	Development	
+Cambridge network	Infrastructure	
+Cambridge network	Travel	
+Reuse and recycle	cambridgereuse	
+Reuse and recycle	circularcambridge	
+Food	SCOOP Cambridge	
+Reuse and recycle	Warp It	
+Travel	Greater Cambridge Greenways	
+Research	Cambridge Zero	
+Research	UoC Sustainability Team	
+Research	Living Laboratory for Sustainability	
+Research	Positive Investment Cambridge	
+Research	CU Energy Network	
+Research	Science and Policy Exchange	
+Research	Cambridge Development Initiative	
+Research	Sustainability and Conservation Interdisciplinary Research Hub	
+Research	cambridgecarbonmap	
+Outreach	Collegial	
+Collegial	Wolfson College	
+Wolfson College	Green Society of Wolfson College	
+Collegial	Clare College	
+Clare College	Clare Goes Green	
+Collegial	Trinity College	
+Trinity College	Isaac Newnton Trust	
+Isaac Newnton Trust	Cambridge Zero	
+Finance	Isaac Newnton Trust	
+UoC Sustainability Team	The Cambridge Green Challenge	The Cambridge Green Challenge is run by the Sustainability Team
+Outreach	XR Cambridge	
+Cambridge Zero	Living Laboratory for Sustainability	The Living Lab is part of Cambridge Zero
+Outreach	Clare Goes Green	
+Cambridge Hub	engage for change	
+Cambridge Hub	Edible Garden	
+Cambridge Zero	engage for change	    Engage for Change is proudly sponsored and delivered in partnership with the University of Cambridge, namely with Cambridge Zero and Environment & Energy.
+UoC Sustainability Team	engage for change	    Engage for Change is proudly sponsored and delivered in partnership with the University of Cambridge, namely with Cambridge Zero and Environment & Energy [latter recently renamed Sustainability Team].

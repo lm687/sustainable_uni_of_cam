@@ -4,7 +4,7 @@ Ethical Network	1	https://www.cambridgehub.org/activities/ethical-network	1
 Cambridge Hub	1	https://www.cambridgehub.org/	1
 CUSU Ethical Affairs	1	https://www.cusu.co.uk/about/cusu-campaigns/ethical-affairs/	1
 Climate and Sustainability Forum	1	https://www.facebook.com/CambridgeClimateForum/	1
-UoC Environment and Energy Section	2	https://www.environment.admin.cam.ac.uk/	1
+UoC Sustainability Team	2	https://www.environment.admin.cam.ac.uk/	1
 Living Laboratory for Sustainability	1	https://www.environment.admin.cam.ac.uk/living-lab	1
 Student Switch-Off	1	http://studentswitchoff.org/unis/cambridge/	1
 Cambridge Carbon Footprint	2	https://cambridgecarbonfootprint.org/	1
@@ -41,7 +41,7 @@ Cambridge Institute for Sustainability Leadership	5	https://www.cisl.cam.ac.uk/	
 Greater Cambridge Greenways	8	https://www.greatercambridge.org.uk/transport/transport-projects/greenways	1
 cambridgereuse	6	http://www.cambridgereuse.org.uk/	1
 circularcambridge	6	circularcambridge.org	1
-SCOOP Cambridge	6	https://www.facebook.com/scoopcambridge/	1
+SCOOP Cambridge	3	https://www.facebook.com/scoopcambridge/	1
 louderthanthestorm	1	https://www.louderthanthestorm.com/	1
 cambridgedoughnut	5	https://cambridgedoughnut.org.uk/	1
 Cambridge Carbon Literacy	2	https://www.cambridgehub.org/activities/carbon-literacy	1
@@ -50,9 +50,16 @@ Green Society of Wolfson College	1	https://www.wolfson.cam.ac.uk/current-student
 Built Environment	8	https://www.ice.cam.ac.uk/course/mst-interdisciplinary-design-built-environment	1
 Sustainability and Conservation Interdisciplinary Research Hub	4	https://www.wolfson.cam.ac.uk/interdisciplinary-research-hubs/sustainability-conservation-interdisciplinary-research-hub	1
 cambridgecarbonmap	2	https://cambridgecarbonmap.org/	1
-center	9		3
+Cambridge network	9		3
 Reuse and recycle	6		2
 Development	5		2
 Travel	8		2
 Infrastructure	8		2
 Research	9		2
+Collegial	8		2
+Clare Goes Green	1	http://ucs.clare.cam.ac.uk/societies/clare-goes-green/	1
+Clare College	8		1
+Wolfson College	8		1
+Trinity College	8		1
+Isaac Newnton Trust	8		1
+XR Cambridge	1	https://xrcambridge.org/	2

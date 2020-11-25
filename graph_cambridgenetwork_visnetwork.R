@@ -1,45 +1,50 @@
-setwd(dirname(rstudioapi::getSourceEditorContext()$path))
-rm(list = ls())
+setwd(dirname(rstudioapi::getSourceEditorContext()$path)) # directory
+rm(list = ls()) # clear objects
 
-set.seed(234)
+library(visNetwork) # interactive network visualisation package
+library(viridisLite) # colour package
 
-library(visNetwork)
-library(viridisLite)
+set.seed(234) # 'random' number generator
 
-adj_mat = read.csv("in_files/adjacency_matrix.csv", check.names = FALSE)
-rownames(adj_mat) = adj_mat[,1]
-adj_mat = adj_mat[,-1]
-adj_mat = adj_mat[match(colnames(adj_mat),rownames(adj_mat)),]
-colours = read.table("in_files/colours.txt", stringsAsFactors = FALSE, sep = "\t")
+## Reading in data files
+# note: source files (metadata.txt, dataframe_edges.txt) need identical name entries (ordering doesn't matter)
+metadata = read.table("in_files/metadata.txt", stringsAsFactors = FALSE, sep = "\t")
 
-# matched_colours = colours$V2[match(colours$V1, colnames(adj_mat))]
-colours = colours[match(colnames(adj_mat), colours$V1),]
-matched_colours = colours$V2
-matched_colours = matched_colours + 1 ## from 0-indexed to 1-indexed
-matched_urls = colours$V3
-matched_fontsizes = colours$V4
+## Colour formatting
+colours_nodes = metadata$V2 + 1 ## from 0-indexed to 1-indexed
+urls = metadata$V3
+fontsizes = metadata$V4
+labels = metadata$V1
+
 #                                               'blue', 'red',        carbon', 'orange', 'outreach', 'greyishgreen', 'purple', 'cyan', '#afeeee', center
 # colour_mapping = data.frame(idx=1:10, colour=c('#55CBD3', '#FE8E7B', '#fff1a0', '#FFB68C', '#FF6787', '#C7DAC7', '#7b68ee', 'cyan', '#2DA6AE', 'white'))
 colour_mapping = data.frame(idx=1:10, colour=viridisLite::magma(10))
-matched_colours = colour_mapping[matched_colours,'colour']
+colours_nodes = colour_mapping[colours_nodes,'colour']
 
-adj_mat_df = data.frame(t(do.call('cbind', sapply(1:ncol(adj_mat), FUN =  function(i){
-  sapply(which(adj_mat[i,] == 1), function(j) c(colnames(adj_mat)[i],colnames(adj_mat)[j]))
-  }))))
-colnames(adj_mat_df) = c('to', 'from')
+## Read in the edges
+adj_mat_df = read.table("in_files/dataframe_edges.txt", sep = "\t", header = TRUE, stringsAsFactors = FALSE,
+                        comment.char = "#")
 
-labels = colnames(adj_mat)
-labels[labels == "center"] = "Cambridge network"
+all(metadata$V1 %in% unlist(adj_mat_df))
+all(unlist(adj_mat_df) %in% metadata$V1)
 
-nodes <- data.frame(id = colnames(adj_mat), label=labels,
-                    color=matched_colours)
-nodes$url <- matched_urls
+## Read in url figures for nodes
+url_figures = read.table("in_files/url_figures.txt", sep = "\t", stringsAsFactors = FALSE)
+
+## Formatting objects "node" and "edges"
+nodes <- data.frame(id = labels,
+                    label=labels,
+                    color=colours_nodes)
+nodes$url <- urls
 edges <- adj_mat_df
-nodes$font.size = log(matched_fontsizes+2)*16
-nodes[nodes$label == "Cambridge network","image"] = "https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~mv2.png"
+nodes$font.size = log(fontsizes+2)*16
+# nodes[nodes$label == "Cambridge network","image"] = "https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~mv2.png"
+nodes$image = url_figures$V2[match(labels, url_figures$V1)]
 nodes$shape = "dot"
 nodes[nodes$label == "Development","shape"] = "text"
-nodes[nodes$label == "Cambridge network","shape"] = "image"
+nodes[nodes$label %in% url_figures$V1,"shape"] = "image"
+
+## Producing the graph
 graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
                    main='Map of sustainability-related initiatives in Cambridge, UK',
                    submain=paste0('Lena Morrill 2020.\nLast updated: ', Sys.time(), ' GMT')) %>%
@@ -49,8 +54,12 @@ graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
     window.open(url, '_blank');
    }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18)
 
+## Resize to browser (attempt)
 graph$sizingPolicy$browser$fill <- TRUE
-graph
 
 visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
+graph # plot
 
+##-----
+
+# visNetwork(data.frame(label=nodes$label, id=nodes$id, color=nodes$color, url=nodes$url, font.size=nodes$font.size), edges)
