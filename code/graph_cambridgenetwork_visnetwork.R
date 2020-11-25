@@ -1,8 +1,9 @@
-setwd(dirname(rstudioapi::getSourceEditorContext()$path)) # directory
-rm(list = ls()) # clear objects
+setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+setwd("../") ## main folder
+rm(list = ls()) ## clear objects
 
-library(visNetwork) # interactive network visualisation package
-library(viridisLite) # colour package
+library(visNetwork) ## interactive network visualisation package
+library(viridisLite) ## colour package
 
 set.seed(234) # 'random' number generator
 
@@ -46,7 +47,8 @@ nodes[nodes$label %in% url_figures$V1,"shape"] = "image"
 
 ## Producing the graph
 graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
-                   main='Map of sustainability-related initiatives in Cambridge, UK',
+                   title = 'Graph of sustainability-related initiatives in Cambridge, UK',
+                   main='Graph of sustainability-related initiatives in Cambridge, UK',
                    submain=paste0('Lena Morrill 2020.\nLast updated: ', Sys.time(), ' GMT')) %>%
   visEvents(selectNode =  "function(params) {
     var nodeID = params.nodes[0];
@@ -59,7 +61,5 @@ graph$sizingPolicy$browser$fill <- TRUE
 
 visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
 graph # plot
-
-##-----
 
 # visNetwork(data.frame(label=nodes$label, id=nodes$id, color=nodes$color, url=nodes$url, font.size=nodes$font.size), edges)
