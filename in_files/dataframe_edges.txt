@@ -37,6 +37,7 @@ Cambridge Institute for Sustainability Leadership	Development
 louderthanthestorm	Outreach	
 cambridgedoughnut	Development	
 Cambridge Carbon Literacy	Carbon/Energy	
+Cambridge Carbon Literacy	Cambridge Hub	
 Green Society of Wolfson College	Outreach	
 Built Environment	Infrastructure	
 Sustainability and Conservation Interdisciplinary Research Hub	Nature/Biodiversity	
@@ -81,3 +82,117 @@ Cambridge Hub	engage for change
 Cambridge Hub	Edible Garden	
 Cambridge Zero	engage for change	    Engage for Change is proudly sponsored and delivered in partnership with the University of Cambridge, namely with Cambridge Zero and Environment & Energy.
 UoC Sustainability Team	engage for change	    Engage for Change is proudly sponsored and delivered in partnership with the University of Cambridge, namely with Cambridge Zero and Environment & Energy [latter recently renamed Sustainability Team].
+Research	cambridgecarbonmap	
+Research	open-seneca	
+Research	Winton Programme for the Physics of Sustainability	
+Research	camemergency	
+Research	Crop Science Centre	
+Research	CambPlants Hub	
+The Wildlife Trust BCN	Nature/Biodiversity	
+CoFarm Cambridge	Food	
+Cambridge Global Food Security	Food	
+Cambridge Global Food Security	Research	
+Industrial Sustainability	Research	
+Cambridge Conservation Internship Scheme	Research	
+Cambridge Infrastructure Resilience Group	Research	
+Cambridge Infrastructure Resilience Group	Infrastructure	
+Centre for Climate Repair	Research	
+Centre for Climate Repair	Cambridge Zero	Collaboration
+climate-science	Cambridge Zero	
+Bennett Institute for Public Policy	Research	
+Centre for Science and Policy	Research	
+Centre for Science and Policy	Policy	
+Use Less Group	Research	
+Department of Engineering	Use Less Group	
+cambridgecarbonfootprint	Carbon/Energy	
+cambridgecarbonfootprint	Outreach	
+Cambridge city council	Politics	
+Climate Change Strategy consultation	Cambridge city council	
+Greater Cambridge Local Plan	Politics	
+Cambridge Ahead	Politics	Infrastructure	
+Newnham Environmental Justice Society	Outreach	
+AI for the study of Environmental Risk	Research	
+Advanced Nanotube Application and Manufacturing Initiative	Research	
+Cambridge Centre for Climate Science	Research	
+Cambridge Institute for Public Health	Research	
+Cambridge Judge Business School	Research	
+CamBridgeSens	Research	
+Carbon Capture, Storage and Use	Research	
+Centre for Alternative Finance	Research	
+Centre for Carbon Reduction in Chemical Technology	Research	
+Centre for Diet and Activity Research	Research	
+Centre for Digital Built Britain	Research	
+Centre for Environment, Energy and Natural Resource Governance	Research	
+Centre for Gender Studies	Research	
+Centre for Industrial Sustainability	Research	
+Centre for Natural Material Innovation	Research	
+Centre for Risk Studies	Research	
+Centre for Smart Infrastructure and Construction	Research	
+Centre for Social Innovation	Research	
+Centre for Sustainable Development	Research	
+Centre for Sustainable Road Freight	Research	
+Centre for the Study of Existential Risk	Research	
+Centre for the Study of Global Human Movement	Research	
+Centre of Advanced Materials for Integrated Energy Systems	Research	
+Circular Economy Centre	Research	
+Climate Change and Earth-Ocean-Atmosphere Systems	Research	
+Combustion Research Group	Research	
+Conservation Research Institute	Research	
+Creative Circular Plastics Centre	Research	
+Energy Efficient Cities Initiative	Research	
+Energy Transitions@Cambridge	Research	
+Energy Policy Research Group	Research	
+Mechanics, Materials and Design	Research	
+Nuclear Energy Centre	Research	
+Public Health@Cambridge	Research	
+Real Estate Research Centre	Research	
+Resilient Materials for Life	Research	
+Resource Efficiency Collective	Research	
+Social Decision-Making Lab	Research	
+Sustainable Design Group	Research	
+Whittle Laboratory	Research	
+AI for the study of Environmental Risk	UoC	
+Advanced Nanotube Application and Manufacturing Initiative	UoC	
+Cambridge Centre for Climate Science	UoC	
+Cambridge Institute for Public Health	UoC	
+Cambridge Judge Business School	UoC	
+CamBridgeSens	UoC	
+Carbon Capture, Storage and Use	UoC	
+Centre for Alternative Finance	UoC	
+Centre for Carbon Reduction in Chemical Technology	UoC	
+Centre for Diet and Activity Research	UoC	
+Centre for Digital Built Britain	UoC	
+Centre for Environment, Energy and Natural Resource Governance	UoC	
+Centre for Gender Studies	UoC	
+Centre for Industrial Sustainability	UoC	
+Centre for Natural Material Innovation	UoC	
+Centre for Risk Studies	UoC	
+Centre for Smart Infrastructure and Construction	UoC	
+Centre for Social Innovation	UoC	
+Centre for Sustainable Development	UoC	
+Centre for Sustainable Road Freight	UoC	
+Centre for the Study of Existential Risk	UoC	
+Centre for the Study of Global Human Movement	UoC	
+Centre of Advanced Materials for Integrated Energy Systems	UoC	
+Circular Economy Centre	UoC	
+Climate Change and Earth-Ocean-Atmosphere Systems	UoC	
+Combustion Research Group	UoC	
+Conservation Research Institute	UoC	
+Creative Circular Plastics Centre	UoC	
+Energy Efficient Cities Initiative	UoC	
+Energy Transitions@Cambridge	UoC	
+Energy Policy Research Group	UoC	
+Mechanics, Materials and Design	UoC	
+Nuclear Energy Centre	UoC	
+Public Health@Cambridge	UoC	
+Real Estate Research Centre	UoC	
+Resilient Materials for Life	UoC	
+Resource Efficiency Collective	UoC	
+Social Decision-Making Lab	UoC	
+Sustainable Design Group	UoC	
+Whittle Laboratory	UoC	
+Impact Through Innovation Cambridge	UoC	
+Cambridge organic	Food	
+Cambridge Infrastructure Resilience Group	Research	
+Sustainability Institute at Anglia Ruskin	Research	
+Cambridge network	Politics	

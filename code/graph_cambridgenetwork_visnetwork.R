@@ -17,9 +17,7 @@ urls = metadata$V3
 fontsizes = metadata$V4
 labels = metadata$V1
 
-#                                               'blue', 'red',        carbon', 'orange', 'outreach', 'greyishgreen', 'purple', 'cyan', '#afeeee', center
-# colour_mapping = data.frame(idx=1:10, colour=c('#55CBD3', '#FE8E7B', '#fff1a0', '#FFB68C', '#FF6787', '#C7DAC7', '#7b68ee', 'cyan', '#2DA6AE', 'white'))
-colour_mapping = data.frame(idx=1:10, colour=viridisLite::magma(10))
+colour_mapping = data.frame(idx=1:(1+length(unique(metadata$V2))), colour=viridisLite::magma((1+length(unique(metadata$V2)))))
 colours_nodes = colour_mapping[colours_nodes,'colour']
 
 ## Read in the edges
@@ -27,7 +25,10 @@ adj_mat_df = read.table("in_files/dataframe_edges.txt", sep = "\t", header = TRU
                         comment.char = "#")
 
 all(metadata$V1 %in% unlist(adj_mat_df))
-all(unlist(adj_mat_df) %in% metadata$V1)
+all(unlist(adj_mat_df[,1:2]) %in% metadata$V1)
+
+metadata$V1[!(metadata$V1 %in% unlist(adj_mat_df[,1:2]))]
+unlist(adj_mat_df[,1:2])[!(unlist(adj_mat_df[,1:2]) %in%  metadata$V1)]
 
 ## Read in url figures for nodes
 url_figures = read.table("in_files/url_figures.txt", sep = "\t", stringsAsFactors = FALSE)
@@ -39,7 +40,6 @@ nodes <- data.frame(id = labels,
 nodes$url <- urls
 edges <- adj_mat_df
 nodes$font.size = log(fontsizes+2)*16
-# nodes[nodes$label == "Cambridge network","image"] = "https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~mv2.png"
 nodes$image = url_figures$V2[match(labels, url_figures$V1)]
 nodes$shape = "dot"
 nodes[nodes$label == "Development","shape"] = "text"
@@ -62,4 +62,46 @@ graph$sizingPolicy$browser$fill <- TRUE
 visSave(graph, "html_files.html", selfcontained = TRUE, background = "white")
 graph # plot
 
-# visNetwork(data.frame(label=nodes$label, id=nodes$id, color=nodes$color, url=nodes$url, font.size=nodes$font.size), edges)
+
+#----------------------------------------------#
+
+# require(visNetwork)
+# require(shiny)
+# require(shinydashboard)
+# 
+# ui <- dashboardPage(skin = "black",
+#                     dashboardHeader(),
+#                     dashboardSidebar(
+#                       sidebarMenu(
+#                         menuItem("Network", tabName = "network", icon = icon("dashboard")),
+#                         sidebarSearchForm(textId = "searchText", buttonId = "searchButton", label = "Search...")
+#                       )
+#                     ),
+#                     dashboardBody(
+#                       box(
+#                         title = "Network",  status = "warning", solidHeader = TRUE, collapsible = TRUE,
+#                         visNetworkOutput("network_proxy", height = 700, width=700)
+#                       )
+#                     )
+# )
+# 
+# 
+# server <- function(input, output, session) {
+#   output$network_proxy <- renderVisNetwork({
+#     visNetwork(nodes, edges, height = "100%", width="200%")
+#   })
+#   
+#   observe({
+#     if(input$searchButton > 0){
+#       isolate({
+#         print(input$searchText)
+#         current_node <- nodes[grep(input$searchText, nodes$label), "id"]
+#         print(current_node)
+#         visNetworkProxy("network_proxy") %>% visSelectNodes(id  = current_node)
+#       })
+#     }
+#   })
+#   
+# } #end server
+# 
+# shiny::shinyApp(ui, server)
