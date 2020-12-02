@@ -11,3 +11,5 @@ Outreach	https://lh3.googleusercontent.com/proxy/J4v8Byzgzea4n-qIGqpMcOs41rGtlOi
 Trinity College	https://www.heraldry-wiki.com/heraldrywiki/images/4/4c/Cam-trinity.jpg
 Wolfson College	https://upload.wikimedia.org/wikipedia/commons/9/95/Wolfson_College_Crest.png
 UoC	https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~mv2.png
+Cambridge city council	https://seeklogo.com/images/C/Cambridge_City_Council-logo-CB1AFDEB88-seeklogo.com.png
+Newnham College	https://upload.wikimedia.org/wikipedia/commons/b/b2/Newnham_crest.png
