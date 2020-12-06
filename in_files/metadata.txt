@@ -145,7 +145,10 @@ Institute for Manufacturing (IfM)	9		1
 Societies	1		2
 David Attenborough Building Synergy Project	9	https://www.cambridgeconservation.org/david-attenborough-building-synergy-project/	1
 ###
-###
+### Col 1 = Name as displayed in dataframe_edges.txt (space and case sensitive)
+### Col 2 = Colour
+### Col 3 = URL
+### Col 4 = size of node (between 1 - 3)
 ###
 ### Potentially to add
 ### Cambridge Past Present and Future
