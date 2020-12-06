@@ -145,10 +145,10 @@ Institute for Manufacturing (IfM)	9		1
 Societies	1		2
 David Attenborough Building Synergy Project	9	https://www.cambridgeconservation.org/david-attenborough-building-synergy-project/	1
 Centre for Sustainable Finance 9 https://www.cisl.cam.ac.uk/centres/centre-for-sustainable-finance 1
-Annual Food Agenda 9 http://annualfoodagenda.com/about/ 1
+Annual Food Agenda 3 http://annualfoodagenda.com/about/ 1
 CU Geographical Society 9 http://www.cugs.co.uk/ 1
 Fauna and Flora Institute 9 https://www.fauna-flora.org/ 1
-Cambridge Food Hub 9 https://cambridgefoodhub.org/ 1
+Cambridge Food Hub 3 https://cambridgefoodhub.org/ 1
 # Blue Tap 9 https://centreforglobalequality.org/cultivator-programme/blue-tap/ 1
 ###
 ### Col 1 = Name as displayed in dataframe_edges.txt (space and case sensitive)
