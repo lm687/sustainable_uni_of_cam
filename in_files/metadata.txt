@@ -149,7 +149,6 @@ Annual Food Agenda 9 http://annualfoodagenda.com/about/ 1
 CU Geographical Society 9 http://www.cugs.co.uk/ 1
 Fauna and Flora Institute 9 https://www.fauna-flora.org/ 1
 Cambridge Food Hub 9 https://cambridgefoodhub.org/ 1
-Edible Garden 9 https://www.cambridgehub.org/activities/edible-garden 1
 # Blue Tap 9 https://centreforglobalequality.org/cultivator-programme/blue-tap/ 1
 ###
 ### Col 1 = Name as displayed in dataframe_edges.txt (space and case sensitive)
