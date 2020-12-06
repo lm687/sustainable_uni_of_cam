@@ -33,7 +33,7 @@ Cambridge Conservation Forum	4	https://www.cambridgeconservationforum.org.uk/	1
 Cambridge Conservation Initiative	4	https://www.cambridgeconservation.org/	1
 Cambridge food hub	3	https://cambridgefoodhub.org/	1
 Edible Garden	4	https://www.cambridgehub.org/activities/edible-garden	1
-Cam valley forum	4	https://camvalleyforum.uk/	1
+Cam Valley forum	4	https://camvalleyforum.uk/	1
 Environmental Improvement Programme	4	https://www.cambridge.gov.uk/environmental-improvement-programme	1
 Cambridge Conservation Volunteers	4	https://www.ccv.org.uk/	1
 CambridgeEnvironmentStrategy	5	https://www.environment.admin.cam.ac.uk/policy	1
@@ -73,7 +73,7 @@ Crop Science Centre	9	https://www.plantsci.cam.ac.uk/research/crop-science	1
 CambPlants Hub	9	https://www.cambplants.group.cam.ac.uk/	1
 Cambridge Global Food Security	9	https://www.globalfood.cam.ac.uk/	1
 Industrial Sustainability	9	https://www.ifm.eng.cam.ac.uk/research/industrial-sustainability/	1
-Cambridge organic	3	https://www.cofco.co.uk/	1
+Cambridge Organic Food Company	3	https://www.cofco.co.uk/	1
 Cambridge Conservation Internship Scheme	9	http://www.careers.cam.ac.uk/sectors/intdev/CamBioDiversity.asp	1
 Cambridge Infrastructure Resilience Group	9	https://www.socanth.cam.ac.uk/directory/research-clusters/other-research-projects/black-sky-resilience-group	1
 Centre for Climate Repair	9	https://climaterepair.earth/	1
@@ -144,6 +144,13 @@ D. of Chemical Engineering and Biotechnology	9		1
 Institute for Manufacturing (IfM)	9		1
 Societies	1		2
 David Attenborough Building Synergy Project	9	https://www.cambridgeconservation.org/david-attenborough-building-synergy-project/	1
+Centre for Sustainable Finance 9 https://www.cisl.cam.ac.uk/centres/centre-for-sustainable-finance 1
+Annual Food Agenda 9 http://annualfoodagenda.com/about/ 1
+CU Geographical Society 9 http://www.cugs.co.uk/ 1
+Fauna and Flora Institute 9 https://www.fauna-flora.org/ 1
+Cambridge Food Hub 9 https://cambridgefoodhub.org/ 1
+Edible Garden 9 https://www.cambridgehub.org/activities/edible-garden 1
+# Blue Tap 9 https://centreforglobalequality.org/cultivator-programme/blue-tap/ 1
 ###
 ### Col 1 = Name as displayed in dataframe_edges.txt (space and case sensitive)
 ### Col 2 = Colour
