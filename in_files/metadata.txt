@@ -150,6 +150,7 @@ CU Geographical Society 9 http://www.cugs.co.uk/ 1
 Fauna and Flora Institute 9 https://www.fauna-flora.org/ 1
 Cambridge Food Hub 3 https://cambridgefoodhub.org/ 1
 Energy Transitions Research 9 https://www.energy.cam.ac.uk/ 1
+UK FIRES Consortium 9 https://ukfires.org/ 1
 # Blue Tap 9 https://centreforglobalequality.org/cultivator-programme/blue-tap/ 1
 ###
 ### Col 1 = Name as displayed in dataframe_edges.txt (space and case sensitive)
