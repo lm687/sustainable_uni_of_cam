@@ -241,3 +241,5 @@ CU Geographical Society	Societies
 Annual Food Agenda	UoC
 Centre for Sustainability Finance Cambridge	Institute for Sustainability Leadership
 Energy Transitions Research	Research
+UK FIRES Consortium	Development
+UK FIRES Consortium	Outreach
