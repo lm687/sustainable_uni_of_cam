@@ -157,7 +157,7 @@ Cambridge BID 12  https://www.cambridgebid.co.uk/ 1
 South Cambridgshire District Council  12  https://www.scambs.gov.uk/  1
 Cambridge and Peterborough Combined Authority 12  https://cambridgeshirepeterborough-ca.gov.uk/ 1
 Greater Cambridge Planning Service 12 https://www.greatercambridgeplanning.org/ 1
-Greater Cambridge shared waste service  12 https://www.greatercambridgewaste.org/ 1
+Greater Cambridge Shared Waste Service  12 https://www.greatercambridgewaste.org/ 1
 Natural Cambridgeshire  12  https://naturalcambridgeshire.org.uk/ 1
 Cambridge Food Security Forum 3 https://www.globalfood.cam.ac.uk/students/student-forum 1
 # Blue Tap  9  https://centreforglobalequality.org/cultivator-programme/blue-tap/ 1
