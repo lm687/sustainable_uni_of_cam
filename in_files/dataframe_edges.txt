@@ -58,7 +58,7 @@ Reuse and recycle	circularcambridge
 Food	SCOOP Cambridge	
 Reuse and recycle	Warp It	
 Travel	Greater Cambridge Greenways	
-Research	Cambridge Zero	
+Research  Cambridge Zero	
 Research	UoC Sustainability Team	
 Research	Living Laboratory for Sustainability	
 Research	Positive Investment Cambridge	
@@ -239,7 +239,16 @@ Sustainability and Conservation Interdisciplinary Research Hub	Wolfson College
 Fauna and Flora Institute	Cambridge Conservation Initiative
 CU Geographical Society	Societies
 Annual Food Agenda	UoC
-Centre for Sustainability Finance Cambridge	Institute for Sustainability Leadership
+Centre for Sustainability Finance Cambridge Institute for Sustainability Leadership
 Energy Transitions Research	Research
-UK FIRES Consortium	Development
-UK FIRES Consortium	Outreach
+UK FIRES Consortium Development
+UK FIRES Consortium Outreach
+Politics  Cambridgeshire Country Council
+Politics  Greater Cambridge Partnership
+Politics  Cambridge BID
+Politics  South Cambridgshire District Council
+Politics  Cambridge and Peterborough Combined Authority
+Politics  Greater Cambridge Planning Service
+Politics  Greater Cambridge Shared Waste Service
+Politics  Natural Cambridgeshire
+Cambridge Global Food Security  Cambridge Food Security Forum
