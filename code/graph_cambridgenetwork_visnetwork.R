@@ -37,6 +37,8 @@ fontsizes = metadata$V4
 labels = metadata$V1
 
 colour_mapping = data.frame(idx=1:(1+length(unique(metadata$V2))), colour=viridisLite::magma((1+length(unique(metadata$V2)))))
+labels_groups = c('Outreach', 'Carbon', 'Food', 'Nature/Biodiversity', 'Development', 'Recycling', NA, 'Travel', 'Research',
+                  'Infrastructure', 'Policy', 'Cambridge city')
 colours_nodes = colour_mapping[colours_nodes,'colour']
 
 all(metadata$V1 %in% unlist(adj_mat_df))
@@ -49,19 +51,19 @@ unlist(adj_mat_df[,1:2])[!(unlist(adj_mat_df[,1:2]) %in%  metadata$V1)]
 url_figures = read.table("in_files/url_figures.txt", sep = "\t", stringsAsFactors = FALSE, comment.char = "#")
 
 ## Formatting objects "node" and "edges"
-nodes <- data.frame(id = labels,
+nodes_df <- data.frame(id = labels,
                     label=labels,
                     color=colours_nodes)
-nodes$url <- urls
-edges <- adj_mat_df
-nodes$font.size = log(fontsizes+2)*16
-nodes$image = url_figures$V2[match(labels, url_figures$V1)]
-nodes$shape = "dot"
-nodes[nodes$label == "Development","shape"] = "text"
-nodes[nodes$label %in% url_figures$V1,"shape"] = "image"
+nodes_df$url <- urls
+edges_df <- adj_mat_df
+nodes_df$font.size = log(fontsizes+2)*16
+nodes_df$image = url_figures$V2[match(labels, url_figures$V1)]
+nodes_df$shape = "dot"
+nodes_df[nodes_df$label == "Development","shape"] = "text"
+nodes_df[nodes_df$label %in% url_figures$V1,"shape"] = "image"
 
 ## Producing the graph
-graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
+graph = visNetwork(nodes_df, edges_df, size=1, width = "100%", height=700,
                    title = 'Graph of sustainability-related initiatives in Cambridge, UK',
                    main='Graph of sustainability-related initiatives in Cambridge, UK',
                    submain=paste0('Lena Morrill 2020.\nLast updated: ', Sys.time(), ' GMT')) %>%
@@ -85,98 +87,3 @@ graph$sizingPolicy$browser$fill <- TRUE
 visSave(graph, out_file, selfcontained = TRUE, background = "white")
 graph # plot
 
-
-#----------------------------------------------#
-
-
-# require(visNetwork)
-# require(shiny)
-# require(shinydashboard)
-# 
-# ui <- dashboardPage(
-#   dashboardHeader(title = "Hello"),
-#   dashboardSidebar(
-#     sidebarMenu(
-#       menuItem("Network", tabName = "network", icon = icon("dashboard")),
-#       sidebarSearchForm(textId = "searchText", buttonId = "searchButton", label = "Search...")
-#     )
-#   ),
-#   dashboardBody(
-#     tags$head(tags$style(HTML('
-#                         /* logo */
-#                         .skin-blue .main-header .logo {
-#                         background-color: #f4b943;
-#                         }
-# 
-#                         /* logo when hovered */
-#                         .skin-blue .main-header .logo:hover {
-#                         background-color: #FF0000;
-#                         }
-# 
-#                         /* navbar (rest of the header) */
-#                         .skin-blue .main-header .navbar {
-#                         background-color: #2d8ec9;
-#                         }        
-# 
-#                         /* main sidebar */
-#                         .skin-blue .main-sidebar {
-#                         background-color: #a3dbcb;
-#                         }
-# 
-#                         /* active selected tab in the sidebarmenu */
-#                         .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
-#                         background-color: #d49b9b;
-#                         }
-# 
-#                         /* other links in the sidebarmenu */
-#                         .skin-blue .main-sidebar .sidebar .sidebar-menu a{
-#                         background-color: #00ff00;
-#                         color: #000000;
-#                         }
-# 
-#                         /* other links in the sidebarmenu when hovered */
-#                         .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
-#                         background-color: #69ffb7;
-#                         }
-#                         /* toggle button when hovered  */                    
-#                         .skin-blue .main-header .navbar .sidebar-toggle:hover{
-#                         background-color: #ff69b4;
-#                         }
-#                         .main-header .logo {
-#                           font-family: "Georgia", Times, "Times New Roman", serif;
-#                           font-weight: bold;
-#                           font-size: 24px;
-#                                 '))),
-#     tags$style(HTML('
-#                       .box.box-solid.box-primary>.box-header {
-#                       color:#000000;
-#                       background:#f6e7e7;
-#                       }
-#                       .box-header h3.box-title {
-#                         font-family: "Georgia", Times, "Times New Roman", serif;
-#                       }
-#                       ')),
-#     box(title = "Map of sustainability-related initiatives in Cambridge, UK",  status = "primary",
-#         solidHeader = TRUE, collapsible = TRUE,
-#         visNetworkOutput("network_proxy", height = 700, width="100%"), width = 600)))
-# 
-# 
-# sserver <- function(input, output, session) {
-#   output$network_proxy <- renderVisNetwork({
-#     visNetwork(nodes, edges, height = "100%", width="100%")
-#   })
-#   
-#   observe({
-#     if(input$searchButton > 0){
-#       isolate({
-#         print(input$searchText)
-#         current_node <- nodes[grep(input$searchText, nodes$label), "id"]
-#         print(current_node)
-#         visNetworkProxy("network_proxy") %>% visSelectNodes(id  = current_node)
-#       })
-#     }
-#   })
-#   
-# } #end server
-# 
-# shiny::shinyApp(ui, sserver)
