@@ -12,6 +12,7 @@ Student Switch-Off	Outreach
 Cambridge Carbon Footprint	Carbon/Energy	
 Positive Investment Cambridge	Carbon/Energy	
 CU Energy Network	Carbon/Energy	
+CU Energy Network	Societies	
 CU Environmental Consulting Society	Carbon/Energy	
 Green Impact Cambridge	Outreach	
 Transition Cambridge	Carbon/Energy	
@@ -22,15 +23,18 @@ CU Vegan Society	Food
 Cambridge Sustainable Food (CSF)	Food	
 Foodcycle	Food	
 CU Foodbank Society	Food	
+Cambridge Organic Food Company	Food	
 The Cambridge Green Challenge	Outreach	
 Banking Environment Initiative	Finance	
 Science and Policy Exchange	Development	
+Science and Policy Exchange	Societies	
 Cambridge Development Initiative	Development	
 Cambridge Conservation Forum	Nature/Biodiversity	
 Cambridge Conservation Initiative	Nature/Biodiversity	
 Cambridge food hub	Food	
 Edible Garden	Nature/Biodiversity	
-Cam valley forum	Nature/Biodiversity	
+Cam Valley forum	Nature/Biodiversity	
+Cambridge Past Present and Future	Nature/Biodiversity	
 Environmental Improvement Programme	Nature/Biodiversity	
 Cambridge Conservation Volunteers	Nature/Biodiversity	
 CambridgeEnvironmentStrategy	Development	
@@ -58,10 +62,10 @@ Reuse and recycle	circularcambridge
 Food	SCOOP Cambridge	
 Reuse and recycle	Warp It	
 Travel	Greater Cambridge Greenways	
-Research  Cambridge Zero	
+Research	Cambridge Zero	
 Research	UoC Sustainability Team	
 Research	Living Laboratory for Sustainability	
-Research	Positive Investment Cambridge	
+Finance	Positive Investment Cambridge	
 Research	CU Energy Network	
 Research	Science and Policy Exchange	
 Research	Cambridge Development Initiative	
@@ -94,16 +98,18 @@ The Wildlife Trust BCN	Nature/Biodiversity
 CoFarm Cambridge	Food	
 Cambridge Global Food Security	Food	
 Cambridge Global Food Security	Research	
-Industrial Sustainability	Research	
+Centre for Industrial Sustainability	Research	
 Cambridge Conservation Internship Scheme	Research	
 Cambridge Infrastructure Resilience Group	Research	
 Cambridge Infrastructure Resilience Group	Infrastructure	
 Centre for Climate Repair	Research	
+Centre for Climate Repair	Interdisciplinary centres	
 Centre for Climate Repair	Cambridge Zero	Collaboration
 climate-science	Cambridge Zero	
 Bennett Institute for Public Policy	Research	
 Centre for Science and Policy	Research	
 Centre for Science and Policy	Policy	
+Centre for Science and Policy	Interdisciplinary centres	
 Bennett Institute for Public Policy	Policy	
 Energy Policy Research Group	Policy	
 Science and Policy Exchange	Policy	
@@ -128,14 +134,14 @@ Centre for Alternative Finance	Research
 Centre for Carbon Reduction in Chemical Technology	Research	
 Centre for Diet and Activity Research	Research	
 Centre for Digital Built Britain	Research	
+Centre for Digital Built Britain	Interdisciplinary centres	
 Centre for Environment, Energy and Natural Resource Governance	Research	
 Centre for Gender Studies	Research	
 Centre for Industrial Sustainability	Research	
 Centre for Natural Material Innovation	Research	
 Centre for Risk Studies	Research	
-Centre for Smart Infrastructure and Construction	Research	
 Centre for Social Innovation	Research	
-Centre for Sustainable Development	Research	
+##Centre for Sustainable Development	Research	
 Centre for Sustainable Road Freight	Research	
 Centre for the Study of Existential Risk	Research	
 Centre for the Study of Global Human Movement	Research	
@@ -145,61 +151,50 @@ Climate Change and Earth-Ocean-Atmosphere Systems	Research
 Combustion Research Group	Research	
 Conservation Research Institute	Research	
 Creative Circular Plastics Centre	Research	
+Creative Circular Plastics Centre	Energy Transitions@Cambridge	
 Energy Efficient Cities Initiative	Research	
 Energy Transitions@Cambridge	Research	
+Energy Transitions@Cambridge	Carbon Capture, Storage and Use	
+Energy Transitions@Cambridge	Centre of Advanced Materials for Integrated Energy Systems	
 Energy Policy Research Group	Research	
 Mechanics, Materials and Design	Research	
 Nuclear Energy Centre	Research	
-Public Health@Cambridge	Research	
-Real Estate Research Centre	Research	
+Cambridge Institute for Public Health	Research	
+Real Estate Research Centre	Interdisciplinary centres	
 Resilient Materials for Life	Research	
-Resource Efficiency Collective	Research	
+Resource Efficiency Collective	Societies	
 Social Decision-Making Lab	Research	
 Sustainable Design Group	Research	
+Department of Engineering	Research	
 Whittle Laboratory	Research	
-AI for the study of Environmental Risk	Departmental	
+#AI for the study of Environmental Risk	Departmental	
 Advanced Nanotube Application and Manufacturing Initiative	Department of Engineering	
-Cambridge Centre for Climate Science	Departmental	
-Cambridge Institute for Public Health	Departmental	
+#Cambridge Centre for Climate Science	Departmental	
+#Cambridge Institute for Public Health	Departmental	
 Cambridge Judge Business School	Departmental	
-CamBridgeSens	Departmental	
-Carbon Capture, Storage and Use	Departmental	
-Centre for Alternative Finance	Departmental	
-Centre for Carbon Reduction in Chemical Technology	Departmental	
-Centre for Diet and Activity Research	Departmental	
-Centre for Digital Built Britain	Departmental	
-Centre for Environment, Energy and Natural Resource Governance	Departmental	
-Centre for Gender Studies	Departmental	
-Centre for Industrial Sustainability	Departmental	
-Centre for Natural Material Innovation	Departmental	
-Centre for Risk Studies	UoC	
-Centre for Smart Infrastructure and Construction	Departmental	
-Centre for Social Innovation	Departmental	
-Centre for Sustainable Development	Departmental	
-Centre for Sustainable Road Freight	Departmental	
-Centre for the Study of Existential Risk	Departmental	
-Centre for the Study of Global Human Movement	Departmental	
-Centre of Advanced Materials for Integrated Energy Systems	Departmental	
-Circular Economy Centre	UoC	
-Climate Change and Earth-Ocean-Atmosphere Systems	Departmental	
-Combustion Research Group	Departmental	
-Conservation Research Institute	Departmental	
-Creative Circular Plastics Centre	Departmental	
-Energy Efficient Cities Initiative	Departmental	
-Energy Transitions@Cambridge	Departmental	
-Energy Policy Research Group	Departmental	
-Mechanics, Materials and Design	Departmental	
-Nuclear Energy Centre	Departmental	
-Public Health@Cambridge	Departmental	
-Real Estate Research Centre	Departmental	
+Cambridge Judge Business School	Research	
+#CamBridgeSens	Departmental	
+#Carbon Capture, Storage and Use	Departmental	
+#Centre for Alternative Finance	Departmental	
+#Centre for Carbon Reduction in Chemical Technology	Interdisciplinary centres	
+#Centre for Diet and Activity Research	Departmental	
+#Centre for Digital Built Britain	Departmental	
+#Centre for Environment, Energy and Natural Resource Governance	Departmental	
+#Centre for Gender Studies	Departmental	
+Centre for Social Innovation	Cambridge Judge Business School	
+Centre for the Study of Global Human Movement	Interdisciplinary centres	
+Circular Economy Centre	Cambridge Judge Business School	
+Conservation Research Institute	Interdisciplinary centres	
+Energy Efficient Cities Initiative	Interdisciplinary centres	
+Energy Policy Research Group	Cambridge Judge Business School	
+Cambridge Institute for Public Health	Interdisciplinary centres	
 Resilient Materials for Life	Departmental	
-Resource Efficiency Collective	Departmental	
-Social Decision-Making Lab	Departmental	
+Department of Psychology	Departmental	
 Sustainable Design Group	Departmental	
-Whittle Laboratory	Departmental	
-Impact Through Innovation Cambridge	Departmental	
+#Whittle Laboratory	Departmental	
+Impact Through Innovation Cambridge	Societies	
 Cambridge organic	Food	
-Cambridge Infrastructure Resilience Group	Research	
+Cambridge Infrastructure Resilience Group	Societies	
 Sustainability Institute at Anglia Ruskin	Research	
 cambridge canopy project	Cambridge city council	
 cambridge canopy project	Nature/Biodiversity	
@@ -210,7 +205,6 @@ smarter cambridge transport	Travel
 Departmental	UoC	
 CamBridgeSens	D. of Chemical Engineering and Biotechnology	
 Centre for Industrial Sustainability	Institute for Manufacturing (IfM)	
-D. of Chemical Engineering and Biotechnology	Departmental	
 Department of Engineering	Departmental	
 CU Environmental Consulting Society	Societies	
 CU Marine Conservation Society	Societies	
@@ -226,29 +220,72 @@ D. of Chemical Engineering and Biotechnology	Departmental
 Carbon Capture, Storage and Use	energy@cam	
 David Attenborough Building Synergy Project	Cambridge Conservation Initiative	"As many of the people working in the Building, not least those involved in the Cambridge Conservation Initiative,..."
 David Attenborough Building Synergy Project	Cambridge Conservation Forum	According to Meg
-Institute for Manufacturing (IfM)	Departmental
+Institute for Manufacturing (IfM)	Departmental	
 Centre for Industrial Sustainability	 Institute for Manufacturing (IfM)	
 Centre for Alternative Finance	Cambridge Judge Business School	
 Centre for Risk Studies	Cambridge Judge Business School	
 Centre for Sustainable Development	Department of Engineering	
 Department of Engineering	Infrastructure	
+Centre for Industrial Sustainability	Department of Engineering	
+Centre for Smart Infrastructure and Construction	Department of Engineering	
 Greater Cambridge Greenways	Infrastructure	
 Infrastructure	Politics	
-Warp It	Departmental
-Sustainability and Conservation Interdisciplinary Research Hub	Wolfson College
-Fauna and Flora Institute	Cambridge Conservation Initiative
-CU Geographical Society	Societies
-Annual Food Agenda	UoC
-Centre for Sustainability Finance Cambridge Institute for Sustainability Leadership
-Energy Transitions Research	Research
-UK FIRES Consortium Development
-UK FIRES Consortium Outreach
-Politics  Cambridgeshire Country Council
-Politics  Greater Cambridge Partnership
-Politics  Cambridge BID
-Politics  South Cambridgshire District Council
-Politics  Cambridge and Peterborough Combined Authority
-Politics  Greater Cambridge Planning Service
-Politics  Greater Cambridge Shared Waste Service
-Politics  Natural Cambridgeshire
-Cambridge Global Food Security  Cambridge Food Security Forum
+Sustainability and Conservation Interdisciplinary Research Hub	Wolfson College	
+Fauna and Flora Institute	Cambridge Conservation Initiative	
+CU Geographical Society	Societies	
+Annual Food Agenda	UoC	
+Centre for Sustainable Finance	Cambridge Institute for Sustainability Leadership	
+UK FIRES Consortium	Development	
+UK FIRES Consortium	Outreach	
+Politics	Cambridgeshire Country Council	
+Politics	Greater Cambridge Partnership	
+Politics	Cambridge BID	
+Politics	South Cambridgshire District Council	
+Politics	Cambridge and Peterborough Combined Authority	
+Politics	Greater Cambridge Planning Service	
+Politics	Greater Cambridge Shared Waste Service	
+Politics	Natural Cambridgeshire	
+Cambridge Global Food Security	Cambridge Food Security Forum	
+Department of Physics	Winton Programme for the Physics of Sustainability	
+Department of Physics	Research	
+Department of Physics	Departmental	
+Departmental	Research	
+Department of Engineering	Mechanics, Materials and Design	
+Department of Engineering	Combustion Research Group	
+Department of Engineering	Sustainable Development Group	
+Department of Engineering	Whittle Laboratory	
+Interdisciplinary centres	Centre for the Study of Existential Risk	
+Interdisciplinary centres	Cambridge Global Food Security	
+Interdisciplinary centres	Cambridge Centre for Climate Science	
+Interdisciplinary centres	Bennett Institute for Public Policy	
+Interdisciplinary centres	Energy Transitions@Cambridge	
+Interdisciplinary centres	Centre for Natural Material Innovation	
+Interdisciplinary centres	Nuclear Energy Centre	
+Crop Science Centre	Department of Plant Sciences	
+Department of Plant Sciences	Departmental	
+Department of Plant Sciences	Research	
+Research	Interdisciplinary centres	
+CambPlants Hub	Department of Plant Sciences	
+Cambridge Judge Business School	Research	
+Department of Psychology	Research	
+Department of Psychology	Social Decision-Making Lab	
+Department of Earth Sciences	Research	
+Department of Earth Sciences	Departmental	
+Climate Change and Earth-Ocean-Atmosphere Systems	Department of Earth Sciences	
+Interdisciplinary centres	Departmental	
+Department of Land Economy	Centre for Environment, Energy and Natural Resource Governance	
+Department of Land Economy	Research	
+Department of Land Economy	Departmental	
+Non-university Research	Research	
+Non-university Research	camemergency	
+Non-university Research	cambridgecarbonmap	
+Non-university Research	open-seneca	
+Institute for Manufacturing	Departmental	
+Institute for Manufacturing	Research	
+Departmental	Programmes	
+Programmes	AI for the study of Environmental Risk	
+Programmes	Cambridge Conservation Internship Scheme	
+Cambridge city	UoC	
+Cambridge city	Cambridge city council	
+Cambridge city	Anglia Ruskin University	
+Anglia Ruskin University	Sustainability Institute at Anglia Ruskin	

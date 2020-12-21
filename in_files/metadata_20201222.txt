@@ -47,7 +47,7 @@ Cambridge Zero	2	https://www.zero.cam.ac.uk/	1
 UoC Sustainability Team	2	https://www.environment.admin.cam.ac.uk/	1
 Cambridge Carbon Footprint	2	https://cambridgecarbonfootprint.org/	1
 Positive Investment Cambridge	2	http://positiveinvest.org/	1
-CU Energy Network	2	http://www.cuen.org.uk/	1
+CU Energy Network	2	https://www.google.com/search?client=firefox-b-d&q=cambridge+Energy+Network	1
 CU Environmental Consulting Society	2	https://www.cusu.co.uk/societies/directory/cuecs/	1
 Transition Cambridge	2	https://www.transitioncambridge.org/	1
 Cambridge Carbon Literacy	2	https://www.cambridgehub.org/activities/carbon-literacy	1
@@ -66,6 +66,7 @@ Cambridge food hub	3	https://cambridgefoodhub.org/	1
 SCOOP Cambridge	3	https://www.facebook.com/scoopcambridge/	1
 Cambridge Organic Food Company	3	https://www.cofco.co.uk/	1
 Annual Food Agenda	3	http://annualfoodagenda.com/about/	1
+Cambridge Food Hub	3	https://cambridgefoodhub.org/	1
 Cambridge Food Security Forum	3	https://www.globalfood.cam.ac.uk/students/student-forum	1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
@@ -94,7 +95,7 @@ Isaac Newnton Trust	0		1
 #----------------------------------------------------------------#
 ## development ##
 Science and Policy Exchange	5	http://www.cuspe.org/	1
-#Cambridge Development Initiative	5	http://www.cambridgedevelopment.org/	1
+Cambridge Development Initiative	5	http://www.cambridgedevelopment.org/	1
 CambridgeEnvironmentStrategy	5	https://www.environment.admin.cam.ac.uk/policy	1
 Cambridge Institute for Sustainability Leadership	5	https://www.cisl.cam.ac.uk/	1
 cambridgedoughnut	5	https://cambridgedoughnut.org.uk/	1
@@ -123,6 +124,7 @@ CoFarm Cambridge	3	https://www.cofarm.co/cambridge	1
 Crop Science Centre	9	https://www.plantsci.cam.ac.uk/research/crop-science	1
 CambPlants Hub	9	https://www.cambplants.group.cam.ac.uk/	1
 Cambridge Global Food Security	9	https://www.globalfood.cam.ac.uk/	1
+Industrial Sustainability	9	https://www.ifm.eng.cam.ac.uk/research/industrial-sustainability/	1
 Cambridge Conservation Internship Scheme	9	http://www.careers.cam.ac.uk/sectors/intdev/CamBioDiversity.asp	1
 Cambridge Infrastructure Resilience Group	9	https://www.socanth.cam.ac.uk/directory/research-clusters/other-research-projects/black-sky-resilience-group	1
 Centre for Climate Repair	9	https://climaterepair.earth/	1
@@ -130,19 +132,19 @@ climate-science	1	https://climate-science.com/	1
 Bennett Institute for Public Policy	9	https://www.bennettinstitute.cam.ac.uk/about-us/	1
 Centre for Science and Policy	9	http://www.csap.cam.ac.uk/	1
 Use Less Group	9	https://www.uselessgroup.org/	1
-Department of Engineering	9	http://www.eng.cam.ac.uk/	1
+Department of Engineering	9		
 Sustainability Institute at Anglia Ruskin	9	https://aru.ac.uk/global-sustainability-institute-gsi	1
 #bluetap			
 AI for the study of Environmental Risk	9	https://ai4er-cdt.esc.cam.ac.uk/	1
 Advanced Nanotube Application and Manufacturing Initiative	9	https://www.anam.eng.cam.ac.uk/	1
 Cambridge Centre for Climate Science	9	https://www.climatescience.cam.ac.uk/	1
-Cambridge Institute for Public Health	9	https://www.iph.cam.ac.uk/	1
-Cambridge Judge Business School	9	https://www.jbs.cam.ac.uk/	1
-CamBridgeSens	9	https://www.sensors.cam.ac.uk/	1
+Cambridge Institute for Public Health	9			
+Cambridge Judge Business School	9		
+CamBridgeSens	9		
 Carbon Capture, Storage and Use	9	https://www.energy.cam.ac.uk/directory/research-themes/supply/carbon-capture-storage-and-use	1
 Centre for Alternative Finance	9	https://www.jbs.cam.ac.uk/faculty-research/centres/alternative-finance/	1
-#Centre for Carbon Reduction in Chemical Technology	9	https://www.cares.cam.ac.uk/research/c4t-project/	1
-#Centre for Diet and Activity Research	9	https://www.cedar.iph.cam.ac.uk/	1
+Centre for Carbon Reduction in Chemical Technology	9	https://www.cares.cam.ac.uk/research/c4t-project/	1
+Centre for Diet and Activity Research	9	https://www.cedar.iph.cam.ac.uk/	1
 Centre for Digital Built Britain	9	https://www.cdbb.cam.ac.uk/	1
 Centre for Environment, Energy and Natural Resource Governance	9	https://www.ceenrg.landecon.cam.ac.uk/	1
 Centre for Industrial Sustainability	9	https://www.ifm.eng.cam.ac.uk/research/industrial-sustainability/	1
@@ -151,27 +153,27 @@ Centre for Risk Studies	9	https://www.jbs.cam.ac.uk/faculty-research/centres/ris
 Centre for Smart Infrastructure and Construction	9	https://www-smartinfrastructure.eng.cam.ac.uk/	1
 Centre for Social Innovation	9	https://www.jbs.cam.ac.uk/faculty-research/centres/social-innovation/	1
 Centre for Sustainable Development	9	https://www-csd.eng.cam.ac.uk/	1
-#Centre for Sustainable Road Freight	9	http://www.csrf.ac.uk/	1
-Centre for the Study of Existential Risk	9	https://www.cser.ac.uk/	1
-Centre for the Study of Global Human Movement	9	https://www.humanmovement.cam.ac.uk/	1
-Centre of Advanced Materials for Integrated Energy Systems	9	https://www.energy.cam.ac.uk/cam-ies	1
-Circular Economy Centre	9	https://www.jbs.cam.ac.uk/faculty-research/centres/circular-economy/	1
-Climate Change and Earth-Ocean-Atmosphere Systems	9	https://www.esc.cam.ac.uk/directory/research-themes/climate-change	1
-Combustion Research Group	9	https://www.ceb.cam.ac.uk/research/groups/rg-combustion	1
-Conservation Research Institute	9	https://www.conservation.cam.ac.uk/	1	
-Creative Circular Plastics Centre	9	https://www.energy.cam.ac.uk/Plastic_Waste	1
-Energy Efficient Cities Initiative	9	https://www.eeci.cam.ac.uk/	1
-Energy Transitions@Cambridge	9	https://www.energy.cam.ac.uk/	1
-Energy Policy Research Group	9	https://www.eprg.group.cam.ac.uk/	1
-Mechanics, Materials and Design	9	http://www.eng.cam.ac.uk/research/academic-divisions/mechanics-materials-and-design-0	1
-Nuclear Energy Centre	9	https://www.cnec.group.cam.ac.uk/	1
-#Public Health@Cambridge	9	https://www.iph.cam.ac.uk/	1
-Real Estate Research Centre	9	https://www.crerc.landecon.cam.ac.uk/	1
-#Resilient Materials for Life	9		
-Resource Efficiency Collective	9	https://www.refficiency.org/	1
-Social Decision-Making Lab	9	https://www.sdmlab.psychol.cam.ac.uk/	1
-Sustainable Development Group	9	http://www.eng.cam.ac.uk/research/academic-divisions/civil-engineering/research-groups/sustainable-development-group	1
-Whittle Laboratory	9	https://whittle.eng.cam.ac.uk/	1
+Centre for Sustainable Road Freight	9		
+Centre for the Study of Existential Risk	9		
+Centre for the Study of Global Human Movement	9		
+Centre of Advanced Materials for Integrated Energy Systems	9		
+Circular Economy Centre	9		
+Climate Change and Earth-Ocean-Atmosphere Systems	9		
+Combustion Research Group	9		
+Conservation Research Institute	9		
+Creative Circular Plastics Centre	9		
+Energy Efficient Cities Initiative	9		
+Energy Transitions@Cambridge	9		
+Energy Policy Research Group	9		
+Mechanics, Materials and Design	9		
+Nuclear Energy Centre	9		
+Public Health@Cambridge	9		
+Real Estate Research Centre	9		
+Resilient Materials for Life	9		
+Resource Efficiency Collective	9		
+Social Decision-Making Lab	9		
+Sustainable Design Group	9		
+Whittle Laboratory	9		
 UoC	9	https://www.cam.ac.uk/	3
 Cambridge refill	9	https://www.refill.org.uk/refill-cambridge/	1
 D. of Chemical Engineering and Biotechnology	9		1
@@ -180,16 +182,9 @@ David Attenborough Building Synergy Project	9	https://www.cambridgeconservation.
 Centre for Sustainable Finance	9	https://www.cisl.cam.ac.uk/centres/centre-for-sustainable-finance	1
 CU Geographical Society	9	http://www.cugs.co.uk/	1
 Fauna and Flora Institute	9	https://www.fauna-flora.org/	1
+Energy Transitions Research	9	https://www.energy.cam.ac.uk	1
 UK FIRES Consortium	9	https://ukfires.org/	1
 # Blue Tap	9	https://centreforglobalequality.org/cultivator-programme/blue-tap/	1
-Department of Physics	9	https://www.phy.cam.ac.uk/	1
-Department of Plant Sciences	9	https://www.plantsci.cam.ac.uk/research/crop-science	1
-Interdisciplinary centres	9		1
-Department of Psychology	9		1
-Department of Earth Sciences	9		1
-Department of Land Economy	9		1
-Non-university Research	9		1
-Programmes	9		1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 Infrastructure	10		1
@@ -211,7 +206,5 @@ Cambridge and Peterborough Combined Authority	12	https://cambridgeshirepeterboro
 Greater Cambridge Planning Service	12	https://www.greatercambridgeplanning.org/	1
 Greater Cambridge Shared Waste Service	12	https://www.greatercambridgewaste.org/	1
 Natural Cambridgeshire	12	https://naturalcambridgeshire.org.uk/	1
-Cambridge city	12		2
-Anglia Ruskin University	12		2
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
