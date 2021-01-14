@@ -13,9 +13,9 @@ version = '' # default
 #' Which version of the code do you want to use? if left '', I will use the default files
 #' metadata.txt (in), dataframe_edges.txt (in), html_files.html (out)
 
-metadata_file = paste0("in_files/metadata", version, ".txt")
-edges_file = paste0("in_files/dataframe_edges", version, ".txt")
-out_file = paste0("html_files", version, ".html")
+metadata_file = paste0("code/in_files/metadata", version, ".txt")
+edges_file = paste0("code/in_files/dataframe_edges", version, ".txt")
+out_file = paste0("code/html_files", version, ".html")
 
 ## Reading in data files
 # note: source files (metadata.txt, dataframe_edges.txt) need identical name entries (ordering doesn't matter)
