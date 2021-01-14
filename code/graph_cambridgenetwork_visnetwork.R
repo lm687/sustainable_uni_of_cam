@@ -55,7 +55,9 @@ graph = visNetwork(nodes, edges, size=1, width = "100%", height=700,
     var url = this.body.nodes[nodeID].options.url;
     window.open(url, '_blank');
    }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
-  visOptions(highlightNearest = list(enabled = TRUE, degree = 100))
+  visOptions(highlightNearest = list(enabled = TRUE, degree = 100)) %>% 
+  visPhysics(    repulsion = 6)
+  # visHierarchicalLayout(levelSeparation = 200)
 
 ## Resize to browser (attempt)
 graph$sizingPolicy$browser$fill <- TRUE
