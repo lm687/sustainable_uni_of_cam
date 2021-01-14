@@ -12,6 +12,11 @@ metadata.txt
 url_figures.txt
 ```
 
+To deploy the shiny app, from rstudio, and within the `code/` folder, do
+```
+rsconnect::deployApp(appPrimaryDoc = "code/graph_cambridgenetwork_shiny.R")
+```
+
 
 ## FAQs
 - *What is this map?*
