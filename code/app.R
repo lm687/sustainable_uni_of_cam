@@ -1,5 +1,6 @@
 # rstudioapi() is not allowed in running shiny apps. Comment out!
 # setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+run_from_app = TRUE
 source("graph_cambridgenetwork_visnetwork.R")
 
 require(visNetwork)
