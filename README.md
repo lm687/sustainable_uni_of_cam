@@ -11,3 +11,13 @@ dataframe_edges.txt
 metadata.txt
 url_figures.txt
 ```
+
+
+## FAQs
+- *What is this map?*
+
+- *Can I add my project to this map?*
+
+- *Some information is incorrect, how can I let you know?*
+
+- *Can I share this map?*
