@@ -1,6 +1,7 @@
-setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
-setwd("../") ## main folder
-rm(list = ls()) ## clear objects
+# rstudioapi() is not allowed in running shiny apps
+# setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+# setwd("../") ## main folder
+# rm(list = ls()) ## clear objects
 
 library(visNetwork) ## interactive network visualisation package
 library(viridisLite) ## colour package
@@ -73,13 +74,14 @@ graph = visNetwork(nodes_df, edges_df, size=1, width = "100%", height=700,
     window.open(url, '_blank');
    }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
   visOptions(highlightNearest = list(enabled = TRUE, degree = 100)) %>% 
-  visPhysics(    repulsion = 6,
-  hoverNode = "function(e){
-    this.body.data.nodes.update({id: e.node, font: {size : 14}});
-  }",
-  blurNode = "function(e){
-    this.body.data.nodes.update({id: e.node, font: {size : 0}});
-  }") %>%
+  visPhysics(    repulsion = 6
+  # hoverNode = "function(e){
+  #   this.body.data.nodes.update({id: e.node, font: {size : 14}});
+  # }",
+  # blurNode = "function(e){
+  #   this.body.data.nodes.update({id: e.node, font: {size : 0}});
+  # }"
+  )%>%
   visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
   # visOptions(highlightNearest = list(enabled = TRUE, degree = 2)) %>%
   visInteraction(hover = T)
