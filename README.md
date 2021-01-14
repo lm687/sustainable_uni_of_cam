@@ -13,7 +13,7 @@ url_figures.txt
 ```
 
 
-## FAQ
+## FAQs
 - *What is this map?*
 
 - *Can I add my project to this map?*
