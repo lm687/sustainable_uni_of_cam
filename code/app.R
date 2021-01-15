@@ -1,6 +1,7 @@
 # rstudioapi() is not allowed in running shiny apps. Comment out!
 # setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
 run_from_app = TRUE
+write(run_from_app, "in_files/run_from_app_bool")
 source("graph_cambridgenetwork_visnetwork.R")
 
 require(visNetwork)
@@ -17,7 +18,7 @@ ui <- dashboardPage(
     selectInput(
       inputId = "subgraph",
       label = "Subgraph:",
-      choices = c('Sustainability 101', 'Academic', 'Carbon', 'All'),
+      choices = c('All', 'Sustainability 101', 'Academic', 'Carbon'),
       selected = "DL",
       selectize = FALSE
     ),
@@ -75,7 +76,7 @@ ui <- dashboardPage(
                         background-color: #ffffff; //#a3dbcb;
                         }
 
-                        /* active selected tab in the sidebarmenu */
+                        /* activeelected tab in the sidebarmenu */
                         .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
                         background-color: #ffffff; //#d49b9b;
                         }
@@ -119,15 +120,15 @@ sserver <- function(input, output, session) {
     print("regenerating network")
     subgraph <- input$subgraph
     if(subgraph == 'Carbon'){
-      list_nodes = c('CU Energy Network', 'Cambridge Zero')
+      list_nodes = readLines("nodes_for_subgraphs/carbon_energy.txt")
       nodes <- nodes_df[nodes_df$label %in% list_nodes,]
     } else if(subgraph=="Sustainability 101"){
-      list_nodes = readLines("code/nodes_for_subgraphs/sustainability101.txt")
+      list_nodes = readLines("nodes_for_subgraphs/sustainability101.txt")
       nodes <- nodes_df[nodes_df$label %in% list_nodes,]
     }else if(subgraph=='Academic'){
-      list_nodes = c('CU Energy Network')
+      list_nodes = readLines("nodes_for_subgraphs/academic.txt")
       nodes <- nodes_df[nodes_df$label %in% list_nodes,]
-    }else if(subgraph == "sAll"){
+    }else if(subgraph == "All"){
       nodes = nodes_df
     }
     net$nodes <- nodes

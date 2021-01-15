@@ -1,6 +1,5 @@
 # rstudioapi() is not allowed in running shiny apps
 # setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
-# setwd("../") ## main folder
 # rm(list = ls()) ## clear objects
 
 library(visNetwork) ## interactive network visualisation package
@@ -13,9 +12,9 @@ version = '' # default
 #' Which version of the code do you want to use? if left '', I will use the default files
 #' metadata.txt (in), dataframe_edges.txt (in), html_files.html (out)
 
-metadata_file = paste0("code/in_files/metadata", version, ".txt")
-edges_file = paste0("code/in_files/dataframe_edges", version, ".txt")
-out_file = paste0("code/html_files", version, ".html")
+metadata_file = paste0("in_files/metadata", version, ".txt")
+edges_file = paste0("in_files/dataframe_edges", version, ".txt")
+out_file = paste0("html_files", version, ".html")
 
 ## Reading in data files
 # note: source files (metadata.txt, dataframe_edges.txt) need identical name entries (ordering doesn't matter)
@@ -74,7 +73,7 @@ graph = visNetwork(nodes_df, edges_df, size=1, width = "100%", height=700,
     window.open(url, '_blank');
    }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
   visOptions(highlightNearest = list(enabled = TRUE, degree = 100)) %>% 
-  visPhysics(    repulsion = 6
+  visPhysics(    repulsion = 25
   # hoverNode = "function(e){
   #   this.body.data.nodes.update({id: e.node, font: {size : 14}});
   # }",
@@ -89,6 +88,9 @@ graph = visNetwork(nodes_df, edges_df, size=1, width = "100%", height=700,
 ## Resize to browser (attempt)
 graph$sizingPolicy$browser$fill <- TRUE
 
-visSave(graph, out_file, selfcontained = TRUE, background = "white")
-graph # plot
-
+if(!(readLines("in_files/run_from_app_bool") == 'TRUE')){
+  setwd("../")
+  graph = graph %>% visPhysics(stabilization = FALSE)
+  visSave(graph, out_file, selfcontained = TRUE, background = "white")
+  graph # plot
+}

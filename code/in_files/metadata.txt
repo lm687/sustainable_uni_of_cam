@@ -23,7 +23,7 @@ Ethical Network	1	https://www.cambridgehub.org/activities/ethical-network	1
 Cambridge Hub	1	https://www.cambridgehub.org/	1
 CUSU Ethical Affairs	1	https://www.cusu.co.uk/about/cusu-campaigns/ethical-affairs/	1
 Climate and Sustainability Forum	1	https://www.facebook.com/CambridgeClimateForum/	1
-Living Laboratory for Sustainability	1	https://www.environment.admin.cam.ac.uk/living-lab	1
+Living Laboratory for Sustainability	9	https://www.environment.admin.cam.ac.uk/living-lab	1
 Student Switch-Off	1	http://studentswitchoff.org/unis/cambridge/	1
 Green Impact Cambridge	1	https://www.environment.admin.cam.ac.uk/green-impact	1
 The Cambridge Green Challenge	1	https://www.environment.admin.cam.ac.uk/cambridge-green-challenge	1
@@ -55,6 +55,7 @@ Cambridge Carbon Literacy	2	https://www.cambridgehub.org/activities/carbon-liter
 cambridgecarbonmap	2	https://cambridgecarbonmap.org/	1
 energy@cam	2	https://www.energy.cam.ac.uk/	1
 carbon neutral cambridge	2	https://carbonneutralcambridge.org/about-us/	1
+Divestment	2		1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 ## Food ##
@@ -107,6 +108,7 @@ cambridgereuse	6	http://www.cambridgereuse.org.uk/	1
 circularcambridge	6	circularcambridge.org	1
 Warp It	6	https://www.warp-it.co.uk/	1
 Reuse and recycle	6		2
+Individual Action	9		2
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 Travel	8		2
@@ -191,6 +193,8 @@ Department of Earth Sciences	9		1
 Department of Land Economy	9		1
 Non-university Research	9		1
 Programmes	9		1
+MPhil in Conservation Leadership	9	https://www.cambridgeconservation.org/our-work/mphil-in-conservation-leadership/	1
+Department of Geography	9	https://www.geog.cam.ac.uk/	1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 Infrastructure	10		1
