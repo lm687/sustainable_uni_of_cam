@@ -27,7 +27,7 @@ Living Laboratory for Sustainability	9	https://www.environment.admin.cam.ac.uk/l
 Student Switch-Off	1	http://studentswitchoff.org/unis/cambridge/	1
 Green Impact Cambridge	1	https://www.environment.admin.cam.ac.uk/green-impact	1
 The Cambridge Green Challenge	1	https://www.environment.admin.cam.ac.uk/cambridge-green-challenge	1
-louderthanthestorm	1	https://www.louderthanthestorm.com/	1
+#louderthanthestorm	1	https://www.louderthanthestorm.com/	1
 Green Society of Wolfson College	1	https://www.wolfson.cam.ac.uk/current-students/societies/green-society-wolfson-college	1
 Collegial	1		2
 Societies	1		2
@@ -37,7 +37,6 @@ Newnham College	1		1
 Wolfson College	1		1
 Trinity College	1		1
 XR Cambridge	1	https://xrcambridge.org/	1
-cambridgecarbonfootprint	1	https://cambridgecarbonfootprint.org/	1
 Newnham Environmental Justice Society	1	https://www.facebook.com/NewnhamEnvironmentalJustice/	1
 Cambridgeshire climate emergency	1	http://camemergency.org/	1
 #----------------------------------------------------------------#
@@ -117,7 +116,7 @@ Built Environment	8	https://www.ice.cam.ac.uk/course/mst-interdisciplinary-desig
 smarter cambridge transport	8	https://www.smartertransport.uk/	1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
-Research	9		2
+#Research	9		2
 Departmental	9		2
 open-seneca	9	https://open-seneca.org/	1
 Winton Programme for the Physics of Sustainability	9	https://www.winton.phy.cam.ac.uk/	1
@@ -218,5 +217,7 @@ Greater Cambridge Shared Waste Service	12	https://www.greatercambridgewaste.org/
 Natural Cambridgeshire	12	https://naturalcambridgeshire.org.uk/	1
 Cambridge city	12		2
 Anglia Ruskin University	12		2
+Companies	12		2
+Citizen groups	12		2
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#

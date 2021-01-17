@@ -67,11 +67,17 @@ graph = visNetwork(nodes_df, edges_df, size=1, width = "100%", height=700,
                    title = 'Graph of sustainability-related initiatives in Cambridge, UK',
                    main='Graph of sustainability-related initiatives in Cambridge, UK',
                    submain=paste0('Lena Morrill 2020.\nLast updated: ', Sys.time(), ' GMT')) %>%
+  # visEvents(selectNode =  "function(params) {
+  #   var nodeID = params.nodes[0];
+  #   var url = this.body.nodes[nodeID].options.url;
+  #   window.open(url, '_blank');
+  #  }") %>%
   visEvents(selectNode =  "function(params) {
     var nodeID = params.nodes[0];
-    var url = this.body.nodes[nodeID].options.url;
-    window.open(url, '_blank');
-   }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
+          var url = this.body.nodes[nodeID].options.url;
+          window.open(url);
+          }") %>%
+  visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
   visOptions(highlightNearest = list(enabled = TRUE, degree = 100)) %>% 
   visPhysics(    repulsion = 25
   # hoverNode = "function(e){

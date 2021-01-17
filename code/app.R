@@ -18,7 +18,7 @@ ui <- dashboardPage(
     selectInput(
       inputId = "subgraph",
       label = "Subgraph:",
-      choices = c('All', 'Sustainability 101', 'Academic', 'Carbon'),
+      choices = c('All', 'Sustainability 101', 'Academic', 'Carbon', "Charlie Map"),
       selected = "DL",
       selectize = FALSE
     ),
@@ -128,6 +128,9 @@ sserver <- function(input, output, session) {
     }else if(subgraph=='Academic'){
       list_nodes = readLines("nodes_for_subgraphs/academic.txt")
       nodes <- nodes_df[nodes_df$label %in% list_nodes,]
+    }else if(subgraph== "Charlie Map"){
+      list_nodes = readLines("nodes_for_subgraphs/charlie.txt")
+      nodes <- nodes_df[nodes_df$label %in% list_nodes,]
     }else if(subgraph == "All"){
       nodes = nodes_df
     }
@@ -136,7 +139,13 @@ sserver <- function(input, output, session) {
   })
   output$network_proxy <- renderVisNetwork({ 
     req(net$edges)
-    netout <- visNetwork(net$nodes,net$edges) %>% visPhysics(stabilization = FALSE)
+    netout <- visNetwork(net$nodes,net$edges) %>% visPhysics(stabilization = FALSE) %>%
+      visEvents(selectNode =  "function(params) {
+    var nodeID = params.nodes[0];
+                var url = this.body.nodes[nodeID].options.url;
+                window.open(url, '_blank');
+  }") %>% 
+      visInteraction(hover = T)
     # %>%   visIgraphLayout()
     netout
   })

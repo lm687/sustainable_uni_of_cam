@@ -47,6 +47,7 @@ Cambridge Carbon Literacy	Carbon/Energy
 Cambridge Carbon Literacy	Cambridge Hub	
 Green Society of Wolfson College	Outreach	
 Built Environment	Infrastructure	
+Built Environment	Programmes	
 Sustainability and Conservation Interdisciplinary Research Hub	Nature/Biodiversity	
 cambridgecarbonmap	Carbon/Energy	
 #Cambridge network	Nature/Biodiversity	
@@ -119,8 +120,6 @@ Science and Policy Exchange	Policy
 Policy	Politics	
 Use Less Group	Research	
 Department of Engineering	Use Less Group	
-cambridgecarbonfootprint	Carbon/Energy	
-cambridgecarbonfootprint	Outreach	
 Cambridge city council	Politics	
 Climate Change Strategy consultation	Cambridge city council	
 Greater Cambridge Local Plan	Politics	
@@ -240,6 +239,7 @@ Fauna and Flora Institute	Cambridge Conservation Initiative
 CU Geographical Society	Societies	
 Annual Food Agenda	UoC	
 Centre for Sustainable Finance	Cambridge Institute for Sustainability Leadership	
+Banking Environment Initiative	Cambridge Institute for Sustainability Leadership		
 UK FIRES Consortium	Development	
 UK FIRES Consortium	Outreach	
 Politics	Cambridgeshire Country Council	
@@ -310,3 +310,34 @@ Divestment	Centre for Alternative Finance
 Divestment	Energy Policy Research Group	
 Food	Individual Action	
 Reuse and recycle	Individual Action	
+Cambridge city	UoC	
+Cambridge city	Anglia Ruskin University	
+Cambridge city	Companies	
+Companies	Cambridge Organic Food Company	
+Citizen groups	XR Cambridge	
+Citizen groups	Cambridge Carbon Footprint	
+Citizen groups	Foodcycle	
+Citizen groups	carbon neutral cambridge	
+Citizen groups	Cambridge Sustainable Food (CSF)	
+Citizen groups	Cambridge Past Present and Future	
+Citizen groups	camemergency	
+Citizen groups	smarter cambridge transport	
+Citizen groups	Transition Cambridge	
+Citizen groups	Cam Valley forum	
+Citizen groups	The Wildlife Trust BCN	
+Citizen groups	Cambridge Conservation Volunteers	
+Citizen groups	Cambridgeshire climate emergency	
+Cambridge city	Citizen groups	
+Companies	Cambridge food hub	
+Companies	CoFarm Cambridge	
+Societies	SCOOP Cambridge	
+Societies	CU Wildlife Conservation Trust	
+Collegial	Student Switch-Off	
+UoC	Green Impact Cambridge	
+Environmental Improvement Programme	Cambridge city council	
+Greater Cambridge Greenways	Cambridge city council	
+Individual Action	Citizen groups	
+Companies	pen-seneca	
+CUSU Ethical Affairs	Societies	
+Climate and Sustainability Forum	Societies	
+Positive Investment Cambridge	Societies	
