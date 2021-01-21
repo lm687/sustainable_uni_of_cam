@@ -16,12 +16,16 @@ To see the previous version of the interactive plot, click [here](https://lm687.
 - *Some information is incorrect, how can I let you know?*
 
 - *Can I share this map?*
+![](https://media4.giphy.com/media/H6Qqxi3RsbyuCry8Ma/giphy.gif)
+Yes please!
+
+- *Can I help create this map?* Additions to the map, and possible collaborations, are very welcome. You can open an [issue](https://github.com/lm687/sustainable_uni_of_cam/issues) expressing your interest and we'll contact you.
 
 ## Technical details
 The source files are:
 
 ```
-dataframe_edges.txt 
+dataframe_edges.txt
 metadata.txt
 url_figures.txt
 ```

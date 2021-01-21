@@ -12,26 +12,43 @@ require(shinydashboard)
 ui <- dashboardPage(
   dashboardHeader(title = "Map of sustainability-related initiatives in Cambridge, UK", titleWidth = "100%"),
   dashboardSidebar(
-  sidebarMenu(
-    # menuItem("Network", tabName = "network", icon = icon("dashboard")),
-    sidebarSearchForm(textId = "searchText", buttonId = "searchButton", label = "Search..."),
-    selectInput(
-      inputId = "subgraph",
-      label = "Subgraph:",
-      choices = c('All', 'Sustainability 101', 'Academic', 'Carbon', "Charlie Map"),
-      selected = "DL",
-      selectize = FALSE
-    ),
-    actionButton("gennet","Generate"),
-    # h4("Note: the graph might take a while to load"),
-    br(),
-    br(),
-    br(),
-    actionButton("go", "FAQs", onclick="window.open('https://github.com/lm687/sustainable_uni_of_cam/blob/gh-pages/README.md#faqs', '_blank')"),
-    actionButton("go2", "Give us feedback! 😃", onclick ="window.open('https://ndk986cpkyq.typeform.com/to/FD7dHDLR', '_blank')")
-  )),
+    sidebarMenu(
+      # menuItem("Network", tabName = "network", icon = icon("dashboard")),
+      br(),
+      br(),
+      br(),
+      fluidPage(p(paste0('Updated: ', Sys.time(), ' GMT'))),
+      sidebarSearchForm(textId = "searchText", buttonId = "searchButton", label = "Search..."),
+      # div(style="width:220px;height:120px;", verbatimTextOutput('list_matches')),
+      fluidPage(verbatimTextOutput('list_matches')),
+      br(),
+      br(),
+      br(),
+      selectInput(
+        inputId = "subgraph",
+        label = NULL,
+        choices = c('All', 'Sustainability 101', 'Academic', 'Carbon', "Charlie Map"),
+        selected = "DL",
+        selectize = FALSE
+      ),
+      actionButton("gennet","Generate"),
+      # h4("Note: the graph might take a while to load"),
+      br(),
+      br(),
+      br(),
+      # fluidPage(
+      #   h1('Example')
+      #   ,textInput('txt','','Text')
+      #   ,actionButton('add','add')
+      #   ,verbatimTextOutput('list')
+      # ),
+      actionButton("go", "FAQs", onclick="window.open('https://github.com/lm687/sustainable_uni_of_cam/blob/gh-pages/README.md#faqs', '_blank')"),
+      actionButton("go2", "Give us feedback! 😃", onclick ="window.open('https://ndk986cpkyq.typeform.com/to/FD7dHDLR', '_blank')")
+    )),
   dashboardBody(
     tags$head(tags$style(HTML('
+    #list_matches{color:black; font-size:12px; font-style:italic; padding:10px;
+overflow-y:scroll; max-height: 150px; background: white; width=22px;}
                   .skin-blue .main-header .logo {
                           color: #000000;
                               background-color: #FFFFFF;
@@ -73,6 +90,7 @@ ui <- dashboardPage(
 
                         /* main sidebar */
                         .skin-blue .main-sidebar {
+                        color: #000000; //#a3dbcb;
                         background-color: #ffffff; //#a3dbcb;
                         }
 
@@ -91,9 +109,9 @@ ui <- dashboardPage(
                         .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
                         background-color: #ffffff; //#69ffb7;
                         }
-                        .h3 .main-sidebar {
-                          font-family: "Georgia", Times, "Times New Roman", serif;
-                        }
+                      .skin-blue .main-sidebar .sidebar {
+                        color: #000000;
+                      }
                         '))),
     tags$style(HTML('
                       .box.box-solid.box-primary>.box-header {
@@ -109,13 +127,13 @@ ui <- dashboardPage(
         width = 600),
     box(solidHeader = TRUE, collapsible = F,
         visNetworkOutput("legend_network",height = 90), width = 500, height=120)))
-  # box(title = "Legend",  status = "primary", plotOutput("legend", height =  200),
-  #     solidHeader = TRUE, collapsible = TRUE, width = "100%", height=260)))
+# box(title = "Legend",  status = "primary", plotOutput("legend", height =  200),
+#     solidHeader = TRUE, collapsible = TRUE, width = "100%", height=260)))
 
 
 sserver <- function(input, output, session) {
   net <- reactiveValues(nodes=nodes_df,edges=edges_df)
-  
+  prev_input_searchButton="0000" # initialise
   observeEvent(input$gennet,{
     print("regenerating network")
     subgraph <- input$subgraph
@@ -166,7 +184,7 @@ sserver <- function(input, output, session) {
     visNetwork(nodes = legendnet$nodes, edges = legendnet$edges)%>%
       visNodes(fixed = TRUE)
     
-      # visIgraphLayout(layout = "layout.norm")
+    # visIgraphLayout(layout = "layout.norm")
   })
   # output$network_proxy <- renderVisNetwork({
   #   visNetwork(nodes, edges, height = "100%", width="100%")
@@ -178,18 +196,30 @@ sserver <- function(input, output, session) {
     legend(x=0, y=.9, legend=labels_groups, col=unique(colours_nodes), cex=1.2, lwd=3, ncol=4, bty="n",
            pt.cex = 2, y.intersp=2)
   })
-
+  myValues <- reactiveValues()
   observe({
     if(input$searchButton > 0){
-      isolate({
-        print(input$searchText)
-        current_node <- net$nodes[grep(input$searchText, net$nodes$label), "id"]
-        # print(current_node)
-        visNetworkProxy("network_proxy") %>% visSelectNodes(id  = current_node) %>% visGetSelectedNodes()
-      })
+      if(input$searchText != prev_input_searchButton){
+        # isolate({
+        myValues$dList <- net$nodes$label[grep(tolower(input$searchText), tolower(net$nodes$label))]
+        if(is.null(myValues$dList)){
+          myValues$dList = "No results"
+        }
+        # current_node <- net$nodes[grep(input$searchText, net$nodes$label), "id"]
+        # # print(current_node)
+        # visNetworkProxy("network_proxy") %>% visSelectNodes(id  = current_node) %>% visGetSelectedNodes()
+        # })
+      }else{
+        myValues$dList = ""
+      }
+      prev_input_searchButton = input$searchText
     }
   })
-
+  # output$list_matches<-renderText({
+  output$list_matches<-renderPrint({
+    myValues$dList
+  })
+  
 } #end server
 
 shiny::shinyApp(ui, sserver)
