@@ -25,8 +25,6 @@ We're grateful for any feedback! As before, please let us know of any errors in 
 
 Yes please!
 
-![yes gif](https://media4.giphy.com/media/H6Qqxi3RsbyuCry8Ma/giphy.gif)
-
 
 - **Can I help create this map?**
 
