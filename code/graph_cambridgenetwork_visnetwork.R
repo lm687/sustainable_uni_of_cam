@@ -56,7 +56,7 @@ nodes_df <- data.frame(id = labels,
                     color=colours_nodes)
 nodes_df$url <- urls
 edges_df <- adj_mat_df
-nodes_df$font.size = log(fontsizes+2)*16
+nodes_df$font.size = log(fontsizes+2)*13
 nodes_df$image = url_figures$V2[match(labels, url_figures$V1)]
 nodes_df$shape = "dot"
 nodes_df[nodes_df$label == "Development","shape"] = "text"
@@ -77,9 +77,9 @@ graph = visNetwork(nodes_df, edges_df, size=1, width = "100%", height=700,
           var url = this.body.nodes[nodeID].options.url;
           window.open(url);
           }") %>%
-  visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
+  visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=5) %>%
   visOptions(highlightNearest = list(enabled = TRUE, degree = 100)) %>% 
-  visPhysics(    repulsion = 25
+  visPhysics( repulsion=list(nodeDistance=600)
   # hoverNode = "function(e){
   #   this.body.data.nodes.update({id: e.node, font: {size : 14}});
   # }",
@@ -87,7 +87,6 @@ graph = visNetwork(nodes_df, edges_df, size=1, width = "100%", height=700,
   #   this.body.data.nodes.update({id: e.node, font: {size : 0}});
   # }"
   )%>%
-  visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
   # visOptions(highlightNearest = list(enabled = TRUE, degree = 2)) %>%
   visInteraction(hover = T)
 
@@ -96,7 +95,7 @@ graph$sizingPolicy$browser$fill <- TRUE
 
 if(!(readLines("in_files/run_from_app_bool") == 'TRUE')){
   setwd("../")
-  graph = graph %>% visPhysics(stabilization = FALSE)
+  graph = graph %>% visPhysics(stabilization = FALSE, hierarchicalRepulsion=list(nodeDistance=400))
   visSave(graph, out_file, selfcontained = TRUE, background = "white")
   graph # plot
 }

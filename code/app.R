@@ -9,6 +9,31 @@ require(shiny)
 require(shinydashboard)
 # library(extrafont)
 
+give_linebreaks = function(strng, max_line){
+    splt = strsplit(strng, " ")[[1]]
+    if(length(splt)>1){
+      which_good = which(sapply(1:length(splt), function(i) nchar(paste0(splt[1:i], collapse=' ')) ) < max_line)
+      which_good = which_good[length(which_good)]
+      if(length(which_good)==0){
+        return(paste0(paste0(splt[1], collapse=" "), "\n",
+                      give_linebreaks(paste0(splt[2:length(splt)], collapse=" "), max_line)))
+      }else{
+        if(which_good == length(splt)){
+          return(paste0(splt[1:which_good], collapse=" "))
+        }else{
+          ## continue
+          return(paste0(paste0(splt[1:which_good], collapse=" "), "\n",
+                      give_linebreaks(paste0(splt[(which_good+1):length(splt)], collapse=" "), max_line)))
+        }
+      }
+    }else{
+      return(strng)
+    }
+}
+
+## for nodes with long names, create linebreaks
+nodes_df$label = sapply(nodes_df$label, give_linebreaks, max_line = 14)
+
 ui <- dashboardPage(
   dashboardHeader(title = "Map of sustainability-related initiatives in Cambridge, UK", titleWidth = "100%"),
   dashboardSidebar(
@@ -27,7 +52,7 @@ ui <- dashboardPage(
       selectInput(
         inputId = "subgraph",
         label = NULL,
-        choices = c('All', 'Sustainability 101', 'Academic', 'Carbon', "Charlie Map"),
+        choices = c("Simplified map", 'All', 'Sustainability 101', 'Academic', 'Carbon', "Charlie Map"),
         selected = "DL",
         selectize = FALSE
       ),
@@ -43,7 +68,16 @@ ui <- dashboardPage(
       #   ,verbatimTextOutput('list')
       # ),
       actionButton("go", "FAQs", onclick="window.open('https://github.com/lm687/sustainable_uni_of_cam/blob/gh-pages/README.md#faqs', '_blank')"),
-      actionButton("go2", "Give us feedback! 😃", onclick ="window.open('https://ndk986cpkyq.typeform.com/to/FD7dHDLR', '_blank')")
+      actionButton("go2", "Give us feedback! 😃", onclick ="window.open('https://ndk986cpkyq.typeform.com/to/FD7dHDLR', '_blank')"),
+      br(),
+      br(),
+      br(),
+      actionButton("btnId", "Click here for the Resilience and regeneration map of the city of Cambridge",
+                   style="white-space: normal;
+                   text-align:left;
+                   height:80px;
+                   width:200px;",
+                   onclick ="window.open('https://cambridgeresilienceweb.vercel.app/', '_blank')")
     )),
   dashboardBody(
     tags$head(tags$style(HTML('
@@ -139,16 +173,19 @@ sserver <- function(input, output, session) {
     subgraph <- input$subgraph
     if(subgraph == 'Carbon'){
       list_nodes = readLines("nodes_for_subgraphs/carbon_energy.txt")
-      nodes <- nodes_df[nodes_df$label %in% list_nodes,]
+      nodes <- nodes_df[nodes_df$id %in% list_nodes,]
     } else if(subgraph=="Sustainability 101"){
       list_nodes = readLines("nodes_for_subgraphs/sustainability101.txt")
-      nodes <- nodes_df[nodes_df$label %in% list_nodes,]
+      nodes <- nodes_df[nodes_df$id %in% list_nodes,]
     }else if(subgraph=='Academic'){
       list_nodes = readLines("nodes_for_subgraphs/academic.txt")
-      nodes <- nodes_df[nodes_df$label %in% list_nodes,]
+      nodes <- nodes_df[nodes_df$id %in% list_nodes,]
     }else if(subgraph== "Charlie Map"){
       list_nodes = readLines("nodes_for_subgraphs/charlie.txt")
-      nodes <- nodes_df[nodes_df$label %in% list_nodes,]
+      nodes <- nodes_df[nodes_df$id %in% list_nodes,]
+    }else if(subgraph== "Simplified map"){
+      list_nodes = readLines("nodes_for_subgraphs/exclusion_simplification.txt")
+      nodes <- nodes_df[! (nodes_df$id %in% list_nodes),]
     }else if(subgraph == "All"){
       nodes = nodes_df
     }
@@ -157,6 +194,8 @@ sserver <- function(input, output, session) {
   })
   output$network_proxy <- renderVisNetwork({ 
     req(net$edges)
+    exclusion_nodes = readLines("nodes_for_subgraphs/exclusion_simplification.txt")
+    net$nodes <- nodes_df[! (nodes_df$id %in% exclusion_nodes),]
     netout <- visNetwork(net$nodes,net$edges) %>% visPhysics(stabilization = FALSE) %>%
       visEvents(selectNode =  "function(params) {
     var nodeID = params.nodes[0];
@@ -201,13 +240,13 @@ sserver <- function(input, output, session) {
     if(input$searchButton > 0){
       if(input$searchText != prev_input_searchButton){
         # isolate({
-        myValues$dList <- net$nodes$label[grep(tolower(input$searchText), tolower(net$nodes$label))]
+        myValues$dList <- net$nodes$id[grep(tolower(input$searchText), tolower(net$nodes$label))]
         if(is.null(myValues$dList)){
           myValues$dList = "No results"
         }
-        # current_node <- net$nodes[grep(input$searchText, net$nodes$label), "id"]
+        c# urrent_node <-  net$nodes[grep(tolower(input$searchText), tolower(net$nodes$label)),]
+        v# isNetworkProxy("network_proxy") %>% visSelectNodes(iurrent_node) %>% visGOption()highlightNearest = TRUE
         # # print(current_node)
-        # visNetworkProxy("network_proxy") %>% visSelectNodes(id  = current_node) %>% visGetSelectedNodes()
         # })
       }else{
         myValues$dList = ""

@@ -133,6 +133,7 @@ Cambridge Judge Business School	Research
 CamBridgeSens	Research	
 Carbon Capture, Storage and Use	Research	
 Centre for Alternative Finance	Research	
+Centre for Alternative Finance	Finance	
 Centre for Carbon Reduction in Chemical Technology	Research	
 Centre for Diet and Activity Research	Research	
 Centre for Digital Built Britain	Research	
