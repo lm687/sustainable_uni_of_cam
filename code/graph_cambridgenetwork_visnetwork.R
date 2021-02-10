@@ -1,5 +1,5 @@
-setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
-setwd("../") ## main folder
+# setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+# setwd("../") ## main folder
 rm(list = ls()) ## clear objects
 
 library(visNetwork) ## interactive network visualisation package

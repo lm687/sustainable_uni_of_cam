@@ -1,4 +1,4 @@
-setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+# setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
 source("graph_cambridgenetwork_visnetwork.R")
 
 require(visNetwork)
