@@ -33,6 +33,10 @@ give_linebreaks = function(strng, max_line){
 
 ## for nodes with long names, create linebreaks
 nodes_df$label = sapply(nodes_df$label, give_linebreaks, max_line = 14)
+nodes_df_exclusion = nodes_df
+list_nodes = readLines("nodes_for_subgraphs/exclusion_simplification.txt")
+nodes_df_exclusion <- nodes_df_exclusion[! (nodes_df_exclusion$id %in% list_nodes),]
+
 
 ui <- dashboardPage(
   dashboardHeader(title = "Map of sustainability-related initiatives in Cambridge, UK", titleWidth = "100%"),
@@ -166,7 +170,7 @@ overflow-y:scroll; max-height: 150px; background: white; width=22px;}
 
 
 sserver <- function(input, output, session) {
-  net <- reactiveValues(nodes=nodes_df,edges=edges_df)
+  net <- reactiveValues(nodes=nodes_df_exclusion, edges=edges_df)
   prev_input_searchButton="0000" # initialise
   observeEvent(input$gennet,{
     print("regenerating network")
@@ -188,14 +192,12 @@ sserver <- function(input, output, session) {
       nodes <- nodes_df[! (nodes_df$id %in% list_nodes),]
     }else if(subgraph == "All"){
       nodes = nodes_df
-    }
-    net$nodes <- nodes
+    }e    net$nodes <- nodes
     net$edges <- edges_df
   })
   output$network_proxy <- renderVisNetwork({ 
     req(net$edges)
-    exclusion_nodes = readLines("nodes_for_subgraphs/exclusion_simplification.txt")
-    net$nodes <- nodes_df[! (nodes_df$id %in% exclusion_nodes),]
+    # net$nodes <- net$nodes[! (net$nodes$id %in% exclusion_nodes),]
     netout <- visNetwork(net$nodes,net$edges) %>% visPhysics(stabilization = FALSE) %>%
       visEvents(selectNode =  "function(params) {
     var nodeID = params.nodes[0];
@@ -244,8 +246,8 @@ sserver <- function(input, output, session) {
         if(is.null(myValues$dList)){
           myValues$dList = "No results"
         }
-        c# urrent_node <-  net$nodes[grep(tolower(input$searchText), tolower(net$nodes$label)),]
-        v# isNetworkProxy("network_proxy") %>% visSelectNodes(iurrent_node) %>% visGOption()highlightNearest = TRUE
+        #current_node <-  net$nodes[grep(tolower(input$searchText), tolower(net$nodes$label)),]
+        #visNetworkProxy("network_proxy") %>% visSelectNodes(iurrent_node) %>% visGOption()highlightNearest = TRUE
         # # print(current_node)
         # })
       }else{
