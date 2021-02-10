@@ -1,6 +1,6 @@
 # rstudioapi() is not allowed in running shiny apps
 # setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
-# rm(list = ls()) ## clear objects
+rm(list = ls()) ## clear objects
 
 library(visNetwork) ## interactive network visualisation package
 library(viridisLite) ## colour package

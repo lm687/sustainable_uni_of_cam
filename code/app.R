@@ -192,7 +192,11 @@ sserver <- function(input, output, session) {
       nodes <- nodes_df[! (nodes_df$id %in% list_nodes),]
     }else if(subgraph == "All"){
       nodes = nodes_df
-    }e    net$nodes <- nodes
+    }else{
+      list_nodes = readLines("nodes_for_subgraphs/exclusion_simplification.txt")
+      nodes <- nodes_df[! (nodes_df$id %in% list_nodes),]
+    }
+    net$nodes <- nodes
     net$edges <- edges_df
   })
   output$network_proxy <- renderVisNetwork({ 
