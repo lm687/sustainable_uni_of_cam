@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
 # setwd("../") ## main folder
 rm(list = ls()) ## clear objects
+=======
+# rstudioapi() is not allowed in running shiny apps
+# setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+# rm(list = ls()) ## clear objects
+>>>>>>> 562ee4f33364ce0ba40ca01191e0dc233e10a7ae
 
 library(visNetwork) ## interactive network visualisation package
 library(viridisLite) ## colour package
@@ -56,7 +62,7 @@ nodes_df <- data.frame(id = labels,
                     color=colours_nodes)
 nodes_df$url <- urls
 edges_df <- adj_mat_df
-nodes_df$font.size = log(fontsizes+2)*16
+nodes_df$font.size = log(fontsizes+2)*13
 nodes_df$image = url_figures$V2[match(labels, url_figures$V1)]
 nodes_df$shape = "dot"
 nodes_df[nodes_df$label == "Development","shape"] = "text"
@@ -67,23 +73,35 @@ graph = visNetwork(nodes_df, edges_df, size=1, width = "100%", height=700,
                    title = 'Graph of sustainability-related initiatives in Cambridge, UK',
                    main='Graph of sustainability-related initiatives in Cambridge, UK',
                    submain=paste0('Lena Morrill 2020.\nLast updated: ', Sys.time(), ' GMT')) %>%
+  # visEvents(selectNode =  "function(params) {
+  #   var nodeID = params.nodes[0];
+  #   var url = this.body.nodes[nodeID].options.url;
+  #   window.open(url, '_blank');
+  #  }") %>%
   visEvents(selectNode =  "function(params) {
     var nodeID = params.nodes[0];
-    var url = this.body.nodes[nodeID].options.url;
-    window.open(url, '_blank');
-   }",
-  hoverNode = "function(e){
-    this.body.data.nodes.update({id: e.node, font: {size : 14}});
-  }",
-  blurNode = "function(e){
-    this.body.data.nodes.update({id: e.node, font: {size : 0}});
-  }") %>% visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=18) %>%
+          var url = this.body.nodes[nodeID].options.url;
+          window.open(url);
+          }") %>%
+  visNodes(shapeProperties = list(useBorderWithImage = TRUE), size=5) %>%
+  visOptions(highlightNearest = list(enabled = TRUE, degree = 100)) %>% 
+  visPhysics( repulsion=list(nodeDistance=600)
+  # hoverNode = "function(e){
+  #   this.body.data.nodes.update({id: e.node, font: {size : 14}});
+  # }",
+  # blurNode = "function(e){
+  #   this.body.data.nodes.update({id: e.node, font: {size : 0}});
+  # }"
+  )%>%
   # visOptions(highlightNearest = list(enabled = TRUE, degree = 2)) %>%
   visInteraction(hover = T)
 
 ## Resize to browser (attempt)
 graph$sizingPolicy$browser$fill <- TRUE
 
-visSave(graph, out_file, selfcontained = TRUE, background = "white")
-graph # plot
-
+if(!(readLines("in_files/run_from_app_bool") == 'TRUE')){
+  setwd("../")
+  graph = graph %>% visPhysics(stabilization = FALSE, hierarchicalRepulsion=list(nodeDistance=400))
+  visSave(graph, out_file, selfcontained = TRUE, background = "white")
+  graph # plot
+}

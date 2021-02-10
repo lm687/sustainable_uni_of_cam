@@ -8,8 +8,10 @@ CUSU Ethical Affairs	Outreach
 Climate and Sustainability Forum	Outreach	
 UoC Sustainability Team	Carbon/Energy	
 Living Laboratory for Sustainability	Outreach	
+Living Laboratory for Sustainability	The Cambridge Green Challenge	
 Student Switch-Off	Outreach	
 Cambridge Carbon Footprint	Carbon/Energy	
+Cambridge Carbon Footprint	Outreach	
 Positive Investment Cambridge	Carbon/Energy	
 CU Energy Network	Carbon/Energy	
 CU Energy Network	Societies	
@@ -45,6 +47,7 @@ Cambridge Carbon Literacy	Carbon/Energy
 Cambridge Carbon Literacy	Cambridge Hub	
 Green Society of Wolfson College	Outreach	
 Built Environment	Infrastructure	
+Built Environment	Programmes	
 Sustainability and Conservation Interdisciplinary Research Hub	Nature/Biodiversity	
 cambridgecarbonmap	Carbon/Energy	
 #Cambridge network	Nature/Biodiversity	
@@ -72,6 +75,7 @@ Research	Cambridge Development Initiative
 Research	Sustainability and Conservation Interdisciplinary Research Hub	
 Research	cambridgecarbonmap	
 Collegial	UoC	
+Programmes	UoC	
 Collegial	Wolfson College	
 Wolfson College	Green Society of Wolfson College	
 Collegial	Clare College	
@@ -116,8 +120,6 @@ Science and Policy Exchange	Policy
 Policy	Politics	
 Use Less Group	Research	
 Department of Engineering	Use Less Group	
-cambridgecarbonfootprint	Carbon/Energy	
-cambridgecarbonfootprint	Outreach	
 Cambridge city council	Politics	
 Climate Change Strategy consultation	Cambridge city council	
 Greater Cambridge Local Plan	Politics	
@@ -131,6 +133,7 @@ Cambridge Judge Business School	Research
 CamBridgeSens	Research	
 Carbon Capture, Storage and Use	Research	
 Centre for Alternative Finance	Research	
+Centre for Alternative Finance	Finance	
 Centre for Carbon Reduction in Chemical Technology	Research	
 Centre for Diet and Activity Research	Research	
 Centre for Digital Built Britain	Research	
@@ -219,6 +222,8 @@ Societies	UoC
 D. of Chemical Engineering and Biotechnology	Departmental	
 Carbon Capture, Storage and Use	energy@cam	
 David Attenborough Building Synergy Project	Cambridge Conservation Initiative	"As many of the people working in the Building, not least those involved in the Cambridge Conservation Initiative,..."
+Cambridge Conservation Initiative	MPhil in Conservation Leadership	
+Programmes	MPhil in Conservation Leadership	
 David Attenborough Building Synergy Project	Cambridge Conservation Forum	According to Meg
 Institute for Manufacturing (IfM)	Departmental	
 Centre for Industrial Sustainability	 Institute for Manufacturing (IfM)	
@@ -235,6 +240,7 @@ Fauna and Flora Institute	Cambridge Conservation Initiative
 CU Geographical Society	Societies	
 Annual Food Agenda	UoC	
 Centre for Sustainable Finance	Cambridge Institute for Sustainability Leadership	
+Banking Environment Initiative	Cambridge Institute for Sustainability Leadership		
 UK FIRES Consortium	Development	
 UK FIRES Consortium	Outreach	
 Politics	Cambridgeshire Country Council	
@@ -272,7 +278,7 @@ Department of Psychology	Social Decision-Making Lab
 Department of Earth Sciences	Research	
 Department of Earth Sciences	Departmental	
 Climate Change and Earth-Ocean-Atmosphere Systems	Department of Earth Sciences	
-Interdisciplinary centres	Departmental	
+Interdisciplinary centres	UoC	
 Department of Land Economy	Centre for Environment, Energy and Natural Resource Governance	
 Department of Land Economy	Research	
 Department of Land Economy	Departmental	
@@ -289,3 +295,50 @@ Cambridge city	UoC
 Cambridge city	Cambridge city council	
 Cambridge city	Anglia Ruskin University	
 Anglia Ruskin University	Sustainability Institute at Anglia Ruskin	
+Cambridge Infrastructure Resilience Group	Department of Land Economy	
+Resource Efficiency Collective	Department of Engineering	
+UK FIRES Consortium	Energy Transitions@Cambridge	
+Cambridge Institute for Sustainability Leadership	Interdisciplinary centres	
+Carbon/Energy	Nuclear Energy Centre	
+Carbon/Energy	Energy Transitions@Cambridge	
+Carbon/Energy	Centre for Environment, Energy and Natural Resource Governance	
+Carbon/Energy	Combustion Research Group	
+Department of Geography	MPhil in Conservation Leadership	
+Living Laboratory for Sustainability	Programmes	
+Divestment	Carbon/Energy	
+Divestment	Finance	
+Divestment	Centre for Alternative Finance	
+Divestment	Energy Policy Research Group	
+Food	Individual Action	
+Reuse and recycle	Individual Action	
+Cambridge city	UoC	
+Cambridge city	Anglia Ruskin University	
+Cambridge city	Companies	
+Companies	Cambridge Organic Food Company	
+Citizen groups	XR Cambridge	
+Citizen groups	Cambridge Carbon Footprint	
+Citizen groups	Foodcycle	
+Citizen groups	carbon neutral cambridge	
+Citizen groups	Cambridge Sustainable Food (CSF)	
+Citizen groups	Cambridge Past Present and Future	
+Citizen groups	camemergency	
+Citizen groups	smarter cambridge transport	
+Citizen groups	Transition Cambridge	
+Citizen groups	Cam Valley forum	
+Citizen groups	The Wildlife Trust BCN	
+Citizen groups	Cambridge Conservation Volunteers	
+Citizen groups	Cambridgeshire climate emergency	
+Cambridge city	Citizen groups	
+Companies	Cambridge food hub	
+Companies	CoFarm Cambridge	
+Societies	SCOOP Cambridge	
+Societies	CU Wildlife Conservation Trust	
+Collegial	Student Switch-Off	
+UoC	Green Impact Cambridge	
+Environmental Improvement Programme	Cambridge city council	
+Greater Cambridge Greenways	Cambridge city council	
+Individual Action	Citizen groups	
+Companies	pen-seneca	
+CUSU Ethical Affairs	Societies	
+Climate and Sustainability Forum	Societies	
+Positive Investment Cambridge	Societies	

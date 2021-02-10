@@ -8,6 +8,7 @@
 ### Col 4 = size of node (between 1 - 3)
 ###
 ### Potentially to add
+## Cambridge Disaster Research Network http://imaginingrisk.com/index.php/cambridge-disaster-research-network/
 ### - ...
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
@@ -22,11 +23,11 @@ Ethical Network	1	https://www.cambridgehub.org/activities/ethical-network	1
 Cambridge Hub	1	https://www.cambridgehub.org/	1
 CUSU Ethical Affairs	1	https://www.cusu.co.uk/about/cusu-campaigns/ethical-affairs/	1
 Climate and Sustainability Forum	1	https://www.facebook.com/CambridgeClimateForum/	1
-Living Laboratory for Sustainability	1	https://www.environment.admin.cam.ac.uk/living-lab	1
+Living Laboratory for Sustainability	9	https://www.environment.admin.cam.ac.uk/living-lab	1
 Student Switch-Off	1	http://studentswitchoff.org/unis/cambridge/	1
 Green Impact Cambridge	1	https://www.environment.admin.cam.ac.uk/green-impact	1
 The Cambridge Green Challenge	1	https://www.environment.admin.cam.ac.uk/cambridge-green-challenge	1
-louderthanthestorm	1	https://www.louderthanthestorm.com/	1
+#louderthanthestorm	1	https://www.louderthanthestorm.com/	1
 Green Society of Wolfson College	1	https://www.wolfson.cam.ac.uk/current-students/societies/green-society-wolfson-college	1
 Collegial	1		2
 Societies	1		2
@@ -36,7 +37,6 @@ Newnham College	1		1
 Wolfson College	1		1
 Trinity College	1		1
 XR Cambridge	1	https://xrcambridge.org/	1
-cambridgecarbonfootprint	1	https://cambridgecarbonfootprint.org/	1
 Newnham Environmental Justice Society	1	https://www.facebook.com/NewnhamEnvironmentalJustice/	1
 Cambridgeshire climate emergency	1	http://camemergency.org/	1
 #----------------------------------------------------------------#
@@ -54,6 +54,7 @@ Cambridge Carbon Literacy	2	https://www.cambridgehub.org/activities/carbon-liter
 cambridgecarbonmap	2	https://cambridgecarbonmap.org/	1
 energy@cam	2	https://www.energy.cam.ac.uk/	1
 carbon neutral cambridge	2	https://carbonneutralcambridge.org/about-us/	1
+Divestment	2		1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 ## Food ##
@@ -106,6 +107,7 @@ cambridgereuse	6	http://www.cambridgereuse.org.uk/	1
 circularcambridge	6	circularcambridge.org	1
 Warp It	6	https://www.warp-it.co.uk/	1
 Reuse and recycle	6		2
+Individual Action	9		2
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 Travel	8		2
@@ -114,7 +116,7 @@ Built Environment	8	https://www.ice.cam.ac.uk/course/mst-interdisciplinary-desig
 smarter cambridge transport	8	https://www.smartertransport.uk/	1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
-Research	9		2
+#Research	9		2
 Departmental	9		2
 open-seneca	9	https://open-seneca.org/	1
 Winton Programme for the Physics of Sustainability	9	https://www.winton.phy.cam.ac.uk/	1
@@ -190,6 +192,8 @@ Department of Earth Sciences	9		1
 Department of Land Economy	9		1
 Non-university Research	9		1
 Programmes	9		1
+MPhil in Conservation Leadership	9	https://www.cambridgeconservation.org/our-work/mphil-in-conservation-leadership/	1
+Department of Geography	9	https://www.geog.cam.ac.uk/	1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 Infrastructure	10		1
@@ -213,5 +217,7 @@ Greater Cambridge Shared Waste Service	12	https://www.greatercambridgewaste.org/
 Natural Cambridgeshire	12	https://naturalcambridgeshire.org.uk/	1
 Cambridge city	12		2
 Anglia Ruskin University	12		2
+Companies	12		2
+Citizen groups	12		2
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
