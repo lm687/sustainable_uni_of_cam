@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 # setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
 # setwd("../") ## main folder
 rm(list = ls()) ## clear objects
-=======
-# rstudioapi() is not allowed in running shiny apps
-# setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
-# rm(list = ls()) ## clear objects
->>>>>>> 562ee4f33364ce0ba40ca01191e0dc233e10a7ae
 
 library(visNetwork) ## interactive network visualisation package
 library(viridisLite) ## colour package
