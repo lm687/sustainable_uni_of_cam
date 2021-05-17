@@ -18,11 +18,11 @@ out_file = paste0("html_files", version, ".html")
 
 ## Reading in data files
 # note: source files (metadata.txt, dataframe_edges.txt) need identical name entries (ordering doesn't matter)
-metadata = read.table(metadata_file, stringsAsFactors = FALSE, sep = "\t", comment.char = "#")
+metadata = read.table(metadata_file, stringsAsFactors = FALSE, sep = "\t", comment.char = "#", quote = '"')
 
 ## Read in the edges
 adj_mat_df = read.table(edges_file, sep = "\t", header = TRUE, stringsAsFactors = FALSE,
-                        comment.char = "#")
+                        comment.char = "#", quote='"')
 
 ## Subsetting if necessary
 # metadata = metadata[metadata$V1 %in% unique(unlist(adj_mat_df[apply(adj_mat_df, 1, function(i){ ('Research' %in% i[1:2]) | ('Departmental' %in% i[1:2])   }),1:2])),]
@@ -48,7 +48,7 @@ metadata$V1[!(metadata$V1 %in% unlist(adj_mat_df[,1:2]))]
 unlist(adj_mat_df[,1:2])[!(unlist(adj_mat_df[,1:2]) %in%  metadata$V1)]
 
 ## Read in url figures for nodes
-url_figures = read.table("in_files/url_figures.txt", sep = "\t", stringsAsFactors = FALSE, comment.char = "#")
+url_figures = read.table("in_files/url_figures.txt", sep = "\t", stringsAsFactors = FALSE, comment.char = "#", quote = '"')
 
 ## Formatting objects "node" and "edges"
 nodes_df <- data.frame(id = labels,

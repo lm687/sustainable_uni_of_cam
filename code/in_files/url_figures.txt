@@ -14,3 +14,10 @@ UoC	https://static.wixstatic.com/media/992c2f_23552d8e4acf44ec8cf55e91c86fefad~m
 Cambridge city council	https://seeklogo.com/images/C/Cambridge_City_Council-logo-CB1AFDEB88-seeklogo.com.png
 Newnham College	https://upload.wikimedia.org/wikipedia/commons/b/b2/Newnham_crest.png
 Sustainability and Conservation Interdisciplinary Research Hub	https://drive.google.com/file/d/1e2ti4zcP_k0QMcsSddNJNoa6e-iH_gFO/view
+Hughes Hall College	https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/HughesHallShield.png/993px-HughesHallShield.png
+Christ's College	https://upload.wikimedia.org/wikipedia/commons/8/82/Christs_shield.png
+Darwin College	https://www.cl.cam.ac.uk/~jm2311/images/darwin.gif
+Homerton College	https://www.homerton.cam.ac.uk/sites/default/files/imce/misc/images/Homerton-College-Shield.jpg
+King's College	https://www.gender.cam.ac.uk/images/kings-college-crest-1/image_preview
+Queens' College	https://www.queens.cam.ac.uk/sites/www.queens.cam.ac.uk/files/downloads/queens_college_arms_without_crest.svg
+	

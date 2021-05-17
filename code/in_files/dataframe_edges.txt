@@ -6,16 +6,23 @@ Cambridge Hub	Outreach
 Ethical Network	Cambridge Hub	
 CUSU Ethical Affairs	Outreach	
 Climate and Sustainability Forum	Outreach	
+Climate and Sustainability Forum	Cambridge Hub	
 UoC Sustainability Team	Carbon/Energy	
 Living Laboratory for Sustainability	Outreach	
 Living Laboratory for Sustainability	The Cambridge Green Challenge	
 Student Switch-Off	Outreach	
 Cambridge Carbon Footprint	Carbon/Energy	
 Cambridge Carbon Footprint	Outreach	
+Shaping Horizons	Outreach	
+Shaping Horizons	Politics		
 Positive Investment Cambridge	Carbon/Energy	
-CU Energy Network	Carbon/Energy	
-CU Energy Network	Societies	
+Positive Investment Cambridge	Finance		
+CU Energy Network (CUEN)	Carbon/Energy	
+CU Energy Network (CUEN)	Societies	
+CU Energy Network (CUEN)	Finance	
+CU Energy Network (CUEN)	Development	
 CU Environmental Consulting Society	Carbon/Energy	
+CU Environmental Consulting Society	Policy	
 Green Impact Cambridge	Outreach	
 Transition Cambridge	Carbon/Energy	
 CU Marine Conservation Society	Nature/Biodiversity	
@@ -27,6 +34,7 @@ Foodcycle	Food
 CU Foodbank Society	Food	
 Cambridge Organic Food Company	Food	
 The Cambridge Green Challenge	Outreach	
+Healthy Planet Cambridge	Outreach	
 Banking Environment Initiative	Finance	
 Science and Policy Exchange	Development	
 Science and Policy Exchange	Societies	
@@ -41,6 +49,7 @@ Environmental Improvement Programme	Nature/Biodiversity
 Cambridge Conservation Volunteers	Nature/Biodiversity	
 CambridgeEnvironmentStrategy	Development	
 Cambridge Institute for Sustainability Leadership	Development	
+Six Degrees Cambridge	Development	
 louderthanthestorm	Outreach	
 cambridgedoughnut	Development	
 Cambridge Carbon Literacy	Carbon/Energy	
@@ -68,8 +77,7 @@ Travel	Greater Cambridge Greenways
 Research	Cambridge Zero	
 Research	UoC Sustainability Team	
 Research	Living Laboratory for Sustainability	
-Finance	Positive Investment Cambridge	
-Research	CU Energy Network	
+Research	CU Energy Network (CUEN)	
 Research	Science and Policy Exchange	
 Research	Cambridge Development Initiative	
 Research	Sustainability and Conservation Interdisciplinary Research Hub	
@@ -89,6 +97,8 @@ Outreach	XR Cambridge
 Cambridge Zero	Living Laboratory for Sustainability	The Living Lab is part of Cambridge Zero
 Outreach	Clare Goes Green	
 Cambridge Hub	engage for change	
+Cambridge Hub	Cambridge Carbon Literacy Training	
+Cambridge Environmental Education Society	Cambridge Carbon Literacy Training	
 Cambridge Hub	Edible Garden	
 Cambridge Zero	engage for change	    Engage for Change is proudly sponsored and delivered in partnership with the University of Cambridge, namely with Cambridge Zero and Environment & Energy.
 UoC Sustainability Team	engage for change	    Engage for Change is proudly sponsored and delivered in partnership with the University of Cambridge, namely with Cambridge Zero and Environment & Energy [latter recently renamed Sustainability Team].
@@ -124,7 +134,13 @@ Cambridge city council	Politics
 Climate Change Strategy consultation	Cambridge city council	
 Greater Cambridge Local Plan	Politics	
 Cambridge Ahead	Politics	Infrastructure	
+Cambridge Retrofit Project	Infrastructure	
+Community Carbon Reduction	Infrastructure	
 Newnham Environmental Justice Society	Outreach	
+Zero Carbon Cambridge	Societies	
+Zero Carbon Cambridge	Divestment		
+Zero Carbon Cambridge	Outreach	
+Zero Carbon Cambridge	Carbon	
 AI for the study of Environmental Risk	Research	
 Advanced Nanotube Application and Manufacturing Initiative	Research	
 Cambridge Centre for Climate Science	Research	
@@ -166,6 +182,7 @@ Cambridge Institute for Public Health	Research
 Real Estate Research Centre	Interdisciplinary centres	
 Resilient Materials for Life	Research	
 Resource Efficiency Collective	Societies	
+Environmental Consulting Society	Societies	
 Social Decision-Making Lab	Research	
 Sustainable Design Group	Research	
 Department of Engineering	Research	
@@ -196,6 +213,7 @@ Department of Psychology	Departmental
 Sustainable Design Group	Departmental	
 #Whittle Laboratory	Departmental	
 Impact Through Innovation Cambridge	Societies	
+Impact Through Innovation Cambridge	Development	
 Cambridge organic	Food	
 Cambridge Infrastructure Resilience Group	Societies	
 Sustainability Institute at Anglia Ruskin	Research	
@@ -205,11 +223,16 @@ carbon neutral cambridge	Carbon/Energy
 Cambridgeshire climate emergency	Outreach	
 Cambridge refill	Reuse and recycle	
 smarter cambridge transport	Travel	
+Smart Cambridge	Travel	
 Departmental	UoC	
 CamBridgeSens	D. of Chemical Engineering and Biotechnology	
 Centre for Industrial Sustainability	Institute for Manufacturing (IfM)	
 Department of Engineering	Departmental	
 CU Environmental Consulting Society	Societies	
+Healthy Planet Cambridge	Societies	
+Healthy Planet Cambridge	Student Unions	
+CUSU Ethical Affairs	Student Unions	
+Student Unions	UoC	
 CU Marine Conservation Society	Societies	
 CU Nature Society	Societies	
 CU Vegan Society	Societies	
@@ -218,6 +241,8 @@ Green Society of Wolfson College	Societies
 Newnham Environmental Justice Society	Societies	
 Newnham Environmental Justice Society	Newnham College	
 Newnham College	Collegial	
+Hughes Hall College	Collegial	
+Hughes Hall Centre for Climate Change Engagement	Hughes Hall College	
 Societies	UoC	
 D. of Chemical Engineering and Biotechnology	Departmental	
 Carbon Capture, Storage and Use	energy@cam	
@@ -241,6 +266,7 @@ CU Geographical Society	Societies
 Annual Food Agenda	UoC	
 Centre for Sustainable Finance	Cambridge Institute for Sustainability Leadership	
 Banking Environment Initiative	Cambridge Institute for Sustainability Leadership		
+Societies	Development	
 UK FIRES Consortium	Development	
 UK FIRES Consortium	Outreach	
 Politics	Cambridgeshire Country Council	
@@ -288,7 +314,7 @@ Non-university Research	cambridgecarbonmap
 Non-university Research	open-seneca	
 Institute for Manufacturing	Departmental	
 Institute for Manufacturing	Research	
-Departmental	Programmes	
+#Departmental	Programmes	
 Programmes	AI for the study of Environmental Risk	
 Programmes	Cambridge Conservation Internship Scheme	
 Cambridge city	UoC	
@@ -331,9 +357,21 @@ Citizen groups	Cambridgeshire climate emergency
 Cambridge city	Citizen groups	
 Companies	Cambridge food hub	
 Companies	CoFarm Cambridge	
+Collegial	Darwin College	
+Darwin College	Sir David Mackay	
 Societies	SCOOP Cambridge	
 Societies	CU Wildlife Conservation Trust	
 Collegial	Student Switch-Off	
+Green at Queen's	Societies	
+Green at Queen's	Queens' College	
+Queens' College	Collegial	
+Collegial	Homerton College	
+Homerton College	Homerton College Environmental Society	
+Christ's College	Collegial	
+Christ's College	Christ's Climate Justice Society	
+KCL Environment Society - EcoSoc	King's College	
+King's College	Collegial	
+Societies	Christ's Climate Justice Society	
 UoC	Green Impact Cambridge	
 Environmental Improvement Programme	Cambridge city council	
 Greater Cambridge Greenways	Cambridge city council	

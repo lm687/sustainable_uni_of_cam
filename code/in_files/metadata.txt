@@ -34,11 +34,29 @@ Societies	1		2
 Clare Goes Green	1	http://ucs.clare.cam.ac.uk/societies/clare-goes-green/	1
 Clare College	1		1
 Newnham College	1		1
+Hughes Hall College	1		1
+Hughes Hall Centre for Climate Change Engagement	1	https://www.hughes.cam.ac.uk/chapter-zero-launch/	1
 Wolfson College	1		1
 Trinity College	1		1
 XR Cambridge	1	https://xrcambridge.org/	1
 Newnham Environmental Justice Society	1	https://www.facebook.com/NewnhamEnvironmentalJustice/	1
 Cambridgeshire climate emergency	1	http://camemergency.org/	1
+Healthy Planet Cambridge	1	https://www.cambridgesu.co.uk/organisation/healthyplanetcam/	1
+Shaping Horizons	1	https://www.shapinghorizons.org/	1
+Zero Carbon Cambridge	1	https://zerocarbonsoc.soc.srcf.net/	2
+Cambridge Environmental Education Society	1	https://www.facebook.com/cambridgeenvironmentaleducation	1
+Cambridge Carbon Literacy Training	1	https://www.cambridgehub.org/activities/carbon-literacy	1
+Christ's Climate Justice Society	1	https://www.facebook.com/Christs-Climate-Justice-Society-2224082597868576/?ref=page_internal	1
+Christ's College	1		1
+Sir David Mackay	1		1
+Darwin College	1	https://www.withouthotair.com/	1
+Homerton College Environmental Society	1	https://www.facebook.com/HomertonEnvSoc/	1
+
+Homerton College	1		1
+King's College	1		1
+KCL Environment Society - EcoSoc	1	https://www.facebook.com/KCLecosoc/	1
+Green at Queen's	1	https://en-gb.facebook.com/greenQUB/	1
+Queens' College	1		1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 ## CARBON ##
@@ -47,7 +65,7 @@ Cambridge Zero	2	https://www.zero.cam.ac.uk/	1
 UoC Sustainability Team	2	https://www.environment.admin.cam.ac.uk/	1
 Cambridge Carbon Footprint	2	https://cambridgecarbonfootprint.org/	1
 Positive Investment Cambridge	2	http://positiveinvest.org/	1
-CU Energy Network	2	http://www.cuen.org.uk/	1
+CU Energy Network (CUEN)	2	http://www.cuen.org.uk/	1
 CU Environmental Consulting Society	2	https://www.cusu.co.uk/societies/directory/cuecs/	1
 Transition Cambridge	2	https://www.transitioncambridge.org/	1
 Cambridge Carbon Literacy	2	https://www.cambridgehub.org/activities/carbon-literacy	1
@@ -114,6 +132,7 @@ Travel	8		2
 Greater Cambridge Greenways	8	https://www.greatercambridge.org.uk/transport/transport-projects/greenways	1
 Built Environment	8	https://www.ice.cam.ac.uk/course/mst-interdisciplinary-design-built-environment	1
 smarter cambridge transport	8	https://www.smartertransport.uk/	1
+Smart Cambridge	8	https://smartcambridge.org/	1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 #Research	9		2
@@ -175,12 +194,13 @@ Social Decision-Making Lab	9	https://www.sdmlab.psychol.cam.ac.uk/	1
 Sustainable Development Group	9	http://www.eng.cam.ac.uk/research/academic-divisions/civil-engineering/research-groups/sustainable-development-group	1
 Whittle Laboratory	9	https://whittle.eng.cam.ac.uk/	1
 UoC	9	https://www.cam.ac.uk/	3
+Student Unions	9		1
 Cambridge refill	9	https://www.refill.org.uk/refill-cambridge/	1
 D. of Chemical Engineering and Biotechnology	9		1
 Institute for Manufacturing (IfM)	9		1
 David Attenborough Building Synergy Project	9	https://www.cambridgeconservation.org/david-attenborough-building-synergy-project/	1
 Centre for Sustainable Finance	9	https://www.cisl.cam.ac.uk/centres/centre-for-sustainable-finance	1
-CU Geographical Society	9	http://www.cugs.co.uk/	1
+#CU Geographical Society	9	http://www.cugs.co.uk/	1
 Fauna and Flora Institute	9	https://www.fauna-flora.org/	1
 UK FIRES Consortium	9	https://ukfires.org/	1
 # Blue Tap	9	https://centreforglobalequality.org/cultivator-programme/blue-tap/	1
@@ -200,6 +220,7 @@ Infrastructure	10		1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 Policy	11		
+Six Degrees Cambridge	11	https://www.sixdegreesoxford.com/cambridge	1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#
 Cambridge city council	12		2
@@ -219,5 +240,7 @@ Cambridge city	12		2
 Anglia Ruskin University	12		2
 Companies	12		2
 Citizen groups	12		2
+Cambridge Retrofit Project	12		1
+Community Carbon Reduction	12	https://sites.google.com/site/climatechangeriskmitigation/motivations	1
 #----------------------------------------------------------------#
 #----------------------------------------------------------------#

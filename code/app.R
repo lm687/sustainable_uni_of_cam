@@ -1,8 +1,14 @@
-# rstudioapi() is not allowed in running shiny apps. Comment out!
-# setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+local=T
+if(local){
+  # rstudioapi() is not allowed in running shiny apps.
+  time <- Sys.time()  
+  # setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+  write(as.character(time), "last_updated_timestamp")
+}
 run_from_app = TRUE
 write(run_from_app, "in_files/run_from_app_bool")
 source("graph_cambridgenetwork_visnetwork.R")
+timestp <- readLines("last_updated_timestamp")
 
 require(visNetwork)
 require(shiny)
@@ -46,7 +52,7 @@ ui <- dashboardPage(
       br(),
       br(),
       br(),
-      fluidPage(p(paste0('Updated: ', Sys.time(), ' GMT'))),
+      fluidPage(p(paste0('Updated: ', timestp, ' GMT'))),
       sidebarSearchForm(textId = "searchText", buttonId = "searchButton", label = "Search..."),
       # div(style="width:220px;height:120px;", verbatimTextOutput('list_matches')),
       fluidPage(verbatimTextOutput('list_matches')),
@@ -220,12 +226,13 @@ sserver <- function(input, output, session) {
       0,-1,
       0,0))
     legendnet=list()
-    legendnet$nodes = data.frame(id=labels_groups, label=labels_groups, color=unique(colours_nodes))
+    legendnet$nodes = data.frame(id=labels_groups[!is.na(labels_groups)], label=labels_groups[!is.na(labels_groups)],
+                                 color=unique(colours_nodes)[!is.na(labels_groups)])
     legendnet$edges = data.frame(to=character(),from=character())
     # legendnet$nodes$x <- c(0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5)*120
     # legendnet$nodes$y <- c(0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1)*100
-    legendnet$nodes$x <- c(0:(length(labels_groups)-1))*120
-    legendnet$nodes$y <- rep(-1, length(labels_groups))
+    legendnet$nodes$x <- c(0:(length(labels_groups[!is.na(labels_groups)])-1))*120
+    legendnet$nodes$y <- rep(-1, length(labels_groups[!is.na(labels_groups)]))
     visNetwork(nodes = legendnet$nodes, edges = legendnet$edges)%>%
       visNodes(fixed = TRUE)
     
