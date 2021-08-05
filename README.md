@@ -8,6 +8,8 @@ To see the current version of the interactive plot, click [here](https://lm687.s
 To see the previous version of the interactive plot, click [here](https://lm687.github.io/sustainable_uni_of_cam/html_files.html)
 
 
+![map image](figures/map.png "")
+
 ## FAQs
 - **What is this map?**
 
