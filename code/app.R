@@ -1,18 +1,21 @@
-local=T
-if(local){
+# rm(list = ls()) ## clear objects
+local_bool=F
+if(local_bool){
   # rstudioapi() is not allowed in running shiny apps.
   time <- Sys.time()  
-  # setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
+  setwd(dirname(rstudioapi::getSourceEditorContext()$path)) ## set working directory
   write(as.character(time), "last_updated_timestamp")
 }
-run_from_app = TRUE
-write(run_from_app, "in_files/run_from_app_bool")
+write(as.character(local_bool), "local_bool")
+# run_from_app = TRUE
+# write(run_from_app, "in_files/run_from_app_bool")
 source("graph_cambridgenetwork_visnetwork.R")
 timestp <- readLines("last_updated_timestamp")
 
 require(visNetwork)
 require(shiny)
 require(shinydashboard)
+require(gsheet)
 # library(extrafont)
 
 give_linebreaks = function(strng, max_line){
@@ -43,6 +46,8 @@ nodes_df_exclusion = nodes_df
 list_nodes = readLines("nodes_for_subgraphs/exclusion_simplification.txt")
 nodes_df_exclusion <- nodes_df_exclusion[! (nodes_df_exclusion$id %in% list_nodes),]
 
+# nodes_df_exclusion$id[duplicated(nodes_df_exclusion$id)]
+# nodes_df$id[duplicated(nodes_df$id)]
 
 ui <- dashboardPage(
   dashboardHeader(title = "Map of sustainability-related initiatives in Cambridge, UK", titleWidth = "100%"),
@@ -87,7 +92,7 @@ ui <- dashboardPage(
                    text-align:left;
                    height:80px;
                    width:200px;",
-                   onclick ="window.open('https://cambridgeresilienceweb.vercel.app/', '_blank')")
+                   onclick ="window.open('https://cambridgeresilienceweb.org.uk/', '_blank')")
     )),
   dashboardBody(
     tags$head(tags$style(HTML('
@@ -166,14 +171,16 @@ overflow-y:scroll; max-height: 150px; background: white; width=22px;}
                         font-family: "Georgia", Times, "Times New Roman", serif;
                       }
                       ')),
-    box(solidHeader = TRUE, collapsible = TRUE,
-        visNetworkOutput("network_proxy",height = 555, width="100%"),
+    box(solidHeader = TRUE, collapsible = F,
+        visNetworkOutput("network_proxy",height = 550, width="100%"),
         width = 600),
     box(solidHeader = TRUE, collapsible = F,
         visNetworkOutput("legend_network",height = 90), width = 500, height=120)))
 # box(title = "Legend",  status = "primary", plotOutput("legend", height =  200),
 #     solidHeader = TRUE, collapsible = TRUE, width = "100%", height=260)))
 
+
+# nodes_df[duplicated(nodes_df$label),]
 
 sserver <- function(input, output, session) {
   net <- reactiveValues(nodes=nodes_df_exclusion, edges=edges_df)
@@ -208,12 +215,16 @@ sserver <- function(input, output, session) {
   output$network_proxy <- renderVisNetwork({ 
     req(net$edges)
     # net$nodes <- net$nodes[! (net$nodes$id %in% exclusion_nodes),]
-    netout <- visNetwork(net$nodes,net$edges) %>% visPhysics(stabilization = FALSE) %>%
-      visEvents(selectNode =  "function(params) {
-    var nodeID = params.nodes[0];
-                var url = this.body.nodes[nodeID].options.url;
-                window.open(url, '_blank');
-  }") %>% 
+    netout <- visNetwork(net$nodes,net$edges) %>%
+      visPhysics(stabilization = FALSE) %>%
+      visOptions(nodesIdSelection = T) %>%
+          visEvents(selectNode =  "function(params) {
+        var nodeID = params.nodes[0];
+                    var url = this.body.nodes[nodeID].options.url;
+                    window.open(url, '_blank');
+      }") %>%
+      visOptions(selectedBy = "theme",
+                 nodesIdSelection = list(main="List of nodes")) %>%
       visInteraction(hover = T)
     # %>%   visIgraphLayout()
     netout
@@ -226,8 +237,7 @@ sserver <- function(input, output, session) {
       0,-1,
       0,0))
     legendnet=list()
-    legendnet$nodes = data.frame(id=labels_groups[!is.na(labels_groups)], label=labels_groups[!is.na(labels_groups)],
-                                 color=unique(colours_nodes)[!is.na(labels_groups)])
+    legendnet$nodes = legend_colours
     legendnet$edges = data.frame(to=character(),from=character())
     # legendnet$nodes$x <- c(0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5)*120
     # legendnet$nodes$y <- c(0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1)*100
@@ -248,7 +258,9 @@ sserver <- function(input, output, session) {
     legend(x=0, y=.9, legend=labels_groups, col=unique(colours_nodes), cex=1.2, lwd=3, ncol=4, bty="n",
            pt.cex = 2, y.intersp=2)
   })
+  
   myValues <- reactiveValues()
+  
   observe({
     if(input$searchButton > 0){
       if(input$searchText != prev_input_searchButton){
@@ -265,7 +277,30 @@ sserver <- function(input, output, session) {
         myValues$dList = ""
       }
       prev_input_searchButton = input$searchText
+
+        # visNetworkProxy("network_proxy") %>%
+        #   vilectSetSelection(nodesId = myValues$dList, highlightEdges = TRUE)
+        # 
+      # visNetworkProxy("network_proxy") %>%
+      #   visOptions(selectedBy = "theme",
+      #              nodesIdSelection = list(main="List of nodes"))
+      
+      # visNetworkProxy("network_proxy") %>%
+      #   visFocus(id = myValues$dList[1], scale = 4)
+      
+      # visNetworkProxy("network_proxy") %>%
+      #   visSelectNodes(id = myValues$dList[1])
+      # 
+      # visNetworkProxy("network_proxy") %>%
+      #   visSetSelection(nodesId = myValues$dList)
+      
+      
+      # for(idx_match in myValues$dList){
+      #   visNetworkProxy("network_proxy1") %>%
+      #     visFocus(id = idx_match, scale = 4)
+      # }
     }
+      
   })
   # output$list_matches<-renderText({
   output$list_matches<-renderPrint({
@@ -276,3 +311,5 @@ sserver <- function(input, output, session) {
 
 shiny::shinyApp(ui, sserver)
 
+
+# write.table(nodes_df[, c("id", "label", "url"  )   ], file = "in_files/output_database.csv", sep = ",")

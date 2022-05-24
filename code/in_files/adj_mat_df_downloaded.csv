@@ -1,0 +1,369 @@
+"X1"	"to"	"from"	"Notes"
+1	"engage for change"	"Outreach"	NA
+2	"Cambridge Zero"	"Carbon/Energy"	NA
+3	"Ethical Network"	"Outreach"	NA
+4	"Cambridge Hub"	"Outreach"	NA
+5	"Ethical Network"	"Cambridge Hub"	NA
+6	"CUSU Ethical Affairs"	"Outreach"	NA
+7	"Climate and Sustainability Forum"	"Outreach"	NA
+8	"Climate and Sustainability Forum"	"Cambridge Hub"	NA
+9	"UoC Sustainability Team"	"Carbon/Energy"	NA
+10	"Living Laboratory for Sustainability"	"Outreach"	NA
+11	"Living Laboratory for Sustainability"	"The Cambridge Green Challenge"	NA
+12	"Student Switch-Off"	"Outreach"	NA
+13	"Cambridge Carbon Footprint"	"Carbon/Energy"	NA
+14	"Cambridge Carbon Footprint"	"Outreach"	NA
+15	"Shaping Horizons"	"Outreach"	NA
+16	"Shaping Horizons"	"Politics"	NA
+17	"Positive Investment Cambridge"	"Carbon/Energy"	NA
+18	"Positive Investment Cambridge"	"Finance"	NA
+19	"CU Energy Network (CUEN)"	"Carbon/Energy"	NA
+20	"CU Energy Network (CUEN)"	"Societies"	NA
+21	"CU Energy Network (CUEN)"	"Finance"	NA
+22	"CU Energy Network (CUEN)"	"Development"	NA
+23	"CU Environmental Consulting Society"	"Carbon/Energy"	NA
+24	"CU Environmental Consulting Society"	"Policy"	NA
+25	"Green Impact Cambridge"	"Outreach"	NA
+26	"Transition Cambridge"	"Carbon/Energy"	NA
+27	"CU Marine Conservation Society"	"Nature/Biodiversity"	NA
+28	"CU Wildlife Conservation Trust"	"Nature/Biodiversity"	NA
+29	"CU Nature Society"	"Nature/Biodiversity"	NA
+30	"CU Vegan Society"	"Food"	NA
+31	"Cambridge Sustainable Food (CSF)"	"Food"	NA
+32	"Foodcycle"	"Food"	NA
+33	"CU Foodbank Society"	"Food"	NA
+34	"Cambridge Organic Food Company"	"Food"	NA
+35	"The Cambridge Green Challenge"	"Outreach"	NA
+36	"Healthy Planet Cambridge"	"Outreach"	NA
+37	"Banking Environment Initiative"	"Finance"	NA
+38	"Science and Policy Exchange"	"Development"	NA
+39	"Science and Policy Exchange"	"Societies"	NA
+40	"Cambridge Development Initiative"	"Development"	NA
+41	"Cambridge Conservation Forum"	"Nature/Biodiversity"	NA
+42	"Cambridge Conservation Initiative"	"Nature/Biodiversity"	NA
+43	"Cambridge food hub"	"Food"	NA
+44	"Edible Garden"	"Nature/Biodiversity"	NA
+45	"Cam Valley forum"	"Nature/Biodiversity"	NA
+46	"Cambridge Past Present and Future"	"Nature/Biodiversity"	NA
+47	"Environmental Improvement Programme"	"Nature/Biodiversity"	NA
+48	"Cambridge Conservation Volunteers"	"Nature/Biodiversity"	NA
+49	"CambridgeEnvironmentStrategy"	"Development"	NA
+50	"Cambridge Institute for Sustainability Leadership"	"Development"	NA
+51	"Six Degrees Cambridge"	"Development"	NA
+52	"louderthanthestorm"	"Outreach"	NA
+53	"cambridgedoughnut"	"Development"	NA
+54	"Cambridge Carbon Literacy"	"Carbon/Energy"	NA
+55	"Cambridge Carbon Literacy"	"Cambridge Hub"	NA
+56	"Green Society of Wolfson College"	"Outreach"	NA
+57	"Built Environment"	"Infrastructure"	NA
+58	"Built Environment"	"Programmes"	NA
+59	"Sustainability and Conservation Interdisciplinary Research Hub"	"Nature/Biodiversity"	NA
+60	"cambridgecarbonmap"	"Carbon/Energy"	NA
+61	"Reuse and recycle"	"cambridgereuse"	NA
+62	"Reuse and recycle"	"circularcambridge"	NA
+63	"Food"	"SCOOP Cambridge"	NA
+64	"Reuse and recycle"	"Warp It"	NA
+65	"Travel"	"Greater Cambridge Greenways"	NA
+66	"Research"	"Cambridge Zero"	NA
+67	"Research"	"UoC Sustainability Team"	NA
+68	"Research"	"Living Laboratory for Sustainability"	NA
+69	"Research"	"CU Energy Network (CUEN)"	NA
+70	"Research"	"Science and Policy Exchange"	NA
+71	"Research"	"Cambridge Development Initiative"	NA
+72	"Research"	"Sustainability and Conservation Interdisciplinary Research Hub"	NA
+73	"Research"	"cambridgecarbonmap"	NA
+74	"Collegial"	"UoC"	NA
+75	"Programmes"	"UoC"	NA
+76	"Collegial"	"Wolfson College"	NA
+77	"Wolfson College"	"Green Society of Wolfson College"	NA
+78	"Collegial"	"Clare College"	NA
+79	"Clare College"	"Clare Goes Green"	NA
+80	"Collegial"	"Trinity College"	NA
+81	"Trinity College"	"Isaac Newnton Trust"	NA
+82	"Isaac Newnton Trust"	"Cambridge Zero"	NA
+83	"Finance"	"Isaac Newnton Trust"	NA
+84	"UoC Sustainability Team"	"The Cambridge Green Challenge"	"The Cambridge Green Challenge is run by the Sustainability Team"
+85	"Outreach"	"XR Cambridge"	NA
+86	"Cambridge Zero"	"Living Laboratory for Sustainability"	"The Living Lab is part of Cambridge Zero"
+87	"Outreach"	"Clare Goes Green"	NA
+88	"Cambridge Hub"	"engage for change"	NA
+89	"Cambridge Hub"	"Cambridge Carbon Literacy Training"	NA
+90	"Cambridge Environmental Education Society"	"Cambridge Carbon Literacy Training"	NA
+91	"Cambridge Hub"	"Edible Garden"	NA
+92	"Cambridge Zero"	"engage for change"	"Engage for Change is proudly sponsored and delivered in partnership with the University of Cambridge, namely with Cambridge Zero and Environment & Energy."
+93	"UoC Sustainability Team"	"engage for change"	"Engage for Change is proudly sponsored and delivered in partnership with the University of Cambridge, namely with Cambridge Zero and Environment & Energy [latter recently renamed Sustainability Team]."
+94	"Research"	"cambridgecarbonmap"	NA
+95	"Research"	"open-seneca"	NA
+96	"Research"	"Winton Programme for the Physics of Sustainability"	NA
+97	"Research"	"camemergency"	NA
+98	"Research"	"Crop Science Centre"	NA
+99	"Research"	"CambPlants Hub"	NA
+100	"The Wildlife Trust BCN"	"Nature/Biodiversity"	NA
+101	"CoFarm Cambridge"	"Food"	NA
+102	"Cambridge Global Food Security"	"Food"	NA
+103	"Cambridge Global Food Security"	"Research"	NA
+104	"Centre for Industrial Sustainability"	"Research"	NA
+105	"Cambridge Conservation Internship Scheme"	"Research"	NA
+106	"Cambridge Infrastructure Resilience Group"	"Research"	NA
+107	"Cambridge Infrastructure Resilience Group"	"Infrastructure"	NA
+108	"Centre for Climate Repair"	"Research"	NA
+109	"Centre for Climate Repair"	"Interdisciplinary centres"	NA
+110	"Centre for Climate Repair"	"Cambridge Zero"	"Collaboration"
+111	"climate-science"	"Cambridge Zero"	NA
+112	"Bennett Institute for Public Policy"	"Research"	NA
+113	"Centre for Science and Policy"	"Research"	NA
+114	"Centre for Science and Policy"	"Policy"	NA
+115	"Centre for Science and Policy"	"Interdisciplinary centres"	NA
+116	"Bennett Institute for Public Policy"	"Policy"	NA
+117	"Energy Policy Research Group"	"Policy"	NA
+118	"Science and Policy Exchange"	"Policy"	NA
+119	"Policy"	"Politics"	NA
+120	"Use Less Group"	"Research"	NA
+121	"Department of Engineering"	"Use Less Group"	NA
+122	"Cambridge city council"	"Politics"	NA
+123	"Climate Change Strategy consultation"	"Cambridge city council"	NA
+124	"Greater Cambridge Local Plan"	"Politics"	NA
+125	"Cambridge Ahead"	"Politics"	"Infrastructure"
+126	"Cambridge Retrofit Project"	"Infrastructure"	NA
+127	"Community Carbon Reduction"	"Infrastructure"	NA
+128	"Newnham Environmental Justice Society"	"Outreach"	NA
+129	"Zero Carbon Cambridge"	"Societies"	NA
+130	"Zero Carbon Cambridge"	"Divestment"	NA
+131	"Zero Carbon Cambridge"	"Outreach"	NA
+132	"Zero Carbon Cambridge"	"Carbon"	NA
+133	"AI for the study of Environmental Risk"	"Research"	NA
+134	"Advanced Nanotube Application and Manufacturing Initiative"	"Research"	NA
+135	"Cambridge Centre for Climate Science"	"Research"	NA
+136	"Cambridge Institute for Public Health"	"Research"	NA
+137	"Cambridge Judge Business School"	"Research"	NA
+138	"CamBridgeSens"	"Research"	NA
+139	"Carbon Capture, Storage and Use"	"Research"	NA
+140	"Centre for Alternative Finance"	"Research"	NA
+141	"Centre for Alternative Finance"	"Finance"	NA
+142	"Centre for Carbon Reduction in Chemical Technology"	"Research"	NA
+143	"Centre for Diet and Activity Research"	"Research"	NA
+144	"Centre for Digital Built Britain"	"Research"	NA
+145	"Centre for Digital Built Britain"	"Interdisciplinary centres"	NA
+146	"Centre for Environment, Energy and Natural Resource Governance"	"Research"	NA
+147	"Centre for Gender Studies"	"Research"	NA
+148	"Centre for Industrial Sustainability"	"Research"	NA
+149	"Centre for Natural Material Innovation"	"Research"	NA
+150	"Centre for Risk Studies"	"Research"	NA
+151	"Centre for Social Innovation"	"Research"	NA
+152	"Centre for Sustainable Road Freight"	"Research"	NA
+153	"Centre for the Study of Existential Risk"	"Research"	NA
+154	"Centre for the Study of Global Human Movement"	"Research"	NA
+155	"Centre of Advanced Materials for Integrated Energy Systems"	"Research"	NA
+156	"Circular Economy Centre"	"Research"	NA
+157	"Climate Change and Earth-Ocean-Atmosphere Systems"	"Research"	NA
+158	"Combustion Research Group"	"Research"	NA
+159	"Conservation Research Institute"	"Research"	NA
+160	"Creative Circular Plastics Centre"	"Research"	NA
+161	"Creative Circular Plastics Centre"	"Energy Transitions@Cambridge"	NA
+162	"Energy Efficient Cities Initiative"	"Research"	NA
+163	"Energy Transitions@Cambridge"	"Research"	NA
+164	"Energy Transitions@Cambridge"	"Carbon Capture, Storage and Use"	NA
+165	"Energy Transitions@Cambridge"	"Centre of Advanced Materials for Integrated Energy Systems"	NA
+166	"Energy Policy Research Group"	"Research"	NA
+167	"Mechanics, Materials and Design"	"Research"	NA
+168	"Nuclear Energy Centre"	"Research"	NA
+169	"Cambridge Institute for Public Health"	"Research"	NA
+170	"Real Estate Research Centre"	"Interdisciplinary centres"	NA
+171	"Resilient Materials for Life"	"Research"	NA
+172	"Resource Efficiency Collective"	"Societies"	NA
+173	"Environmental Consulting Society"	"Societies"	NA
+174	"Social Decision-Making Lab"	"Research"	NA
+175	"Sustainable Design Group"	"Research"	NA
+176	"Department of Engineering"	"Research"	NA
+177	"Whittle Laboratory"	"Research"	NA
+178	"Advanced Nanotube Application and Manufacturing Initiative"	"Department of Engineering"	NA
+179	"Cambridge Judge Business School"	"Departmental"	NA
+180	"Cambridge Judge Business School"	"Research"	NA
+181	"Centre for Social Innovation"	"Cambridge Judge Business School"	NA
+182	"Centre for the Study of Global Human Movement"	"Interdisciplinary centres"	NA
+183	"Circular Economy Centre"	"Cambridge Judge Business School"	NA
+184	"Conservation Research Institute"	"Interdisciplinary centres"	NA
+185	"Energy Efficient Cities Initiative"	"Interdisciplinary centres"	NA
+186	"Energy Policy Research Group"	"Cambridge Judge Business School"	NA
+187	"Cambridge Institute for Public Health"	"Interdisciplinary centres"	NA
+188	"Resilient Materials for Life"	"Departmental"	NA
+189	"Department of Psychology"	"Departmental"	NA
+190	"Sustainable Design Group"	"Departmental"	NA
+191	"Impact Through Innovation Cambridge"	"Societies"	NA
+192	"Impact Through Innovation Cambridge"	"Development"	NA
+193	"Cambridge organic"	"Food"	NA
+194	"Cambridge Infrastructure Resilience Group"	"Societies"	NA
+195	"Sustainability Institute at Anglia Ruskin"	"Research"	NA
+196	"cambridge canopy project"	"Cambridge city council"	NA
+197	"cambridge canopy project"	"Nature/Biodiversity"	NA
+198	"carbon neutral cambridge"	"Carbon/Energy"	NA
+199	"Cambridgeshire climate emergency"	"Outreach"	NA
+200	"Cambridge refill"	"Reuse and recycle"	NA
+201	"smarter cambridge transport"	"Travel"	NA
+202	"Smart Cambridge"	"Travel"	NA
+203	"Departmental"	"UoC"	NA
+204	"CamBridgeSens"	"D. of Chemical Engineering and Biotechnology"	NA
+205	"Centre for Industrial Sustainability"	"Institute for Manufacturing (IfM)"	NA
+206	"Department of Engineering"	"Departmental"	NA
+207	"CU Environmental Consulting Society"	"Societies"	NA
+208	"Healthy Planet Cambridge"	"Societies"	NA
+209	"Healthy Planet Cambridge"	"Student Unions"	NA
+210	"CUSU Ethical Affairs"	"Student Unions"	NA
+211	"Student Unions"	"UoC"	NA
+212	"CU Marine Conservation Society"	"Societies"	NA
+213	"CU Nature Society"	"Societies"	NA
+214	"CU Vegan Society"	"Societies"	NA
+215	"CU Foodbank Society"	"Societies"	NA
+216	"Green Society of Wolfson College"	"Societies"	NA
+217	"Newnham Environmental Justice Society"	"Societies"	NA
+218	"Newnham Environmental Justice Society"	"Newnham College"	NA
+219	"Newnham College"	"Collegial"	NA
+220	"Hughes Hall College"	"Collegial"	NA
+221	"Hughes Hall Centre for Climate Change Engagement"	"Hughes Hall College"	NA
+222	"Societies"	"UoC"	NA
+223	"D. of Chemical Engineering and Biotechnology"	"Departmental"	NA
+224	"Carbon Capture, Storage and Use"	"energy@cam"	NA
+225	"David Attenborough Building Synergy Project"	"Cambridge Conservation Initiative"	"As many of the people working in the Building, not least those involved in the Cambridge Conservation Initiative,..."
+226	"Cambridge Conservation Initiative"	"MPhil in Conservation Leadership"	NA
+227	"Programmes"	"MPhil in Conservation Leadership"	NA
+228	"David Attenborough Building Synergy Project"	"Cambridge Conservation Forum"	"According to Meg"
+229	"Institute for Manufacturing (IfM)"	"Departmental"	NA
+230	"Centre for Industrial Sustainability"	"Institute for Manufacturing (IfM)"	NA
+231	"Centre for Alternative Finance"	"Cambridge Judge Business School"	NA
+232	"Centre for Risk Studies"	"Cambridge Judge Business School"	NA
+233	"Centre for Sustainable Development"	"Department of Engineering"	NA
+234	"Department of Engineering"	"Infrastructure"	NA
+235	"Centre for Industrial Sustainability"	"Department of Engineering"	NA
+236	"Centre for Smart Infrastructure and Construction"	"Department of Engineering"	NA
+237	"Greater Cambridge Greenways"	"Infrastructure"	NA
+238	"Infrastructure"	"Politics"	NA
+239	"Sustainability and Conservation Interdisciplinary Research Hub"	"Wolfson College"	NA
+240	"Fauna and Flora Institute"	"Cambridge Conservation Initiative"	NA
+241	"CU Geographical Society"	"Societies"	NA
+242	"Annual Food Agenda"	"UoC"	NA
+243	"Centre for Sustainable Finance"	"Cambridge Institute for Sustainability Leadership"	NA
+244	"Banking Environment Initiative"	"Cambridge Institute for Sustainability Leadership"	NA
+245	"Societies"	"Development"	NA
+246	"UK FIRES Consortium"	"Development"	NA
+247	"UK FIRES Consortium"	"Outreach"	NA
+248	"Politics"	"Cambridgeshire Country Council"	NA
+249	"Politics"	"Greater Cambridge Partnership"	NA
+250	"Politics"	"Cambridge BID"	NA
+251	"Politics"	"South Cambridgshire District Council"	NA
+252	"Politics"	"Cambridge and Peterborough Combined Authority"	NA
+253	"Politics"	"Greater Cambridge Planning Service"	NA
+254	"Politics"	"Greater Cambridge Shared Waste Service"	NA
+255	"Politics"	"Natural Cambridgeshire"	NA
+256	"Cambridge Global Food Security"	"Cambridge Food Security Forum"	NA
+257	"Department of Physics"	"Winton Programme for the Physics of Sustainability"	NA
+258	"Department of Physics"	"Research"	NA
+259	"Department of Physics"	"Departmental"	NA
+260	"Departmental"	"Research"	NA
+261	"Department of Engineering"	"Mechanics, Materials and Design"	NA
+262	"Department of Engineering"	"Combustion Research Group"	NA
+263	"Department of Engineering"	"Sustainable Development Group"	NA
+264	"Department of Engineering"	"Whittle Laboratory"	NA
+265	"Interdisciplinary centres"	"Centre for the Study of Existential Risk"	NA
+266	"Interdisciplinary centres"	"Cambridge Global Food Security"	NA
+267	"Interdisciplinary centres"	"Cambridge Centre for Climate Science"	NA
+268	"Interdisciplinary centres"	"Bennett Institute for Public Policy"	NA
+269	"Interdisciplinary centres"	"Energy Transitions@Cambridge"	NA
+270	"Interdisciplinary centres"	"Centre for Natural Material Innovation"	NA
+271	"Interdisciplinary centres"	"Nuclear Energy Centre"	NA
+272	"Crop Science Centre"	"Department of Plant Sciences"	NA
+273	"Department of Plant Sciences"	"Departmental"	NA
+274	"Department of Plant Sciences"	"Research"	NA
+275	"Research"	"Interdisciplinary centres"	NA
+276	"CambPlants Hub"	"Department of Plant Sciences"	NA
+277	"Cambridge Judge Business School"	"Research"	NA
+278	"Department of Psychology"	"Research"	NA
+279	"Department of Psychology"	"Social Decision-Making Lab"	NA
+280	"Department of Earth Sciences"	"Research"	NA
+281	"Department of Earth Sciences"	"Departmental"	NA
+282	"Climate Change and Earth-Ocean-Atmosphere Systems"	"Department of Earth Sciences"	NA
+283	"Interdisciplinary centres"	"UoC"	NA
+284	"Department of Land Economy"	"Centre for Environment, Energy and Natural Resource Governance"	NA
+285	"Department of Land Economy"	"Research"	NA
+286	"Department of Land Economy"	"Departmental"	NA
+287	"Non-university Research"	"Research"	NA
+288	"Non-university Research"	"camemergency"	NA
+289	"Non-university Research"	"cambridgecarbonmap"	NA
+290	"Non-university Research"	"open-seneca"	NA
+291	"Institute for Manufacturing"	"Departmental"	NA
+292	"Institute for Manufacturing"	"Research"	NA
+293	"Programmes"	"AI for the study of Environmental Risk"	NA
+294	"Programmes"	"Cambridge Conservation Internship Scheme"	NA
+295	"Cambridge city"	"UoC"	NA
+296	"Cambridge city"	"Cambridge city council"	NA
+297	"Cambridge city"	"Anglia Ruskin University"	NA
+298	"Anglia Ruskin University"	"Sustainability Institute at Anglia Ruskin"	NA
+299	"Cambridge Infrastructure Resilience Group"	"Department of Land Economy"	NA
+300	"Resource Efficiency Collective"	"Department of Engineering"	NA
+301	"UK FIRES Consortium"	"Energy Transitions@Cambridge"	NA
+302	"Cambridge Institute for Sustainability Leadership"	"Interdisciplinary centres"	NA
+303	"Carbon/Energy"	"Nuclear Energy Centre"	NA
+304	"Carbon/Energy"	"Energy Transitions@Cambridge"	NA
+305	"Carbon/Energy"	"Centre for Environment, Energy and Natural Resource Governance"	NA
+306	"Carbon/Energy"	"Combustion Research Group"	NA
+307	"Department of Geography"	"MPhil in Conservation Leadership"	NA
+308	"Living Laboratory for Sustainability"	"Programmes"	NA
+309	"Divestment"	"Carbon/Energy"	NA
+310	"Divestment"	"Finance"	NA
+311	"Divestment"	"Centre for Alternative Finance"	NA
+312	"Divestment"	"Energy Policy Research Group"	NA
+313	"Food"	"Individual Action"	NA
+314	"Reuse and recycle"	"Individual Action"	NA
+315	"Cambridge city"	"UoC"	NA
+316	"Cambridge city"	"Anglia Ruskin University"	NA
+317	"Cambridge city"	"Companies"	NA
+318	"Companies"	"Cambridge Organic Food Company"	NA
+319	"Citizen groups"	"XR Cambridge"	NA
+320	"Citizen groups"	"Cambridge Carbon Footprint"	NA
+321	"Citizen groups"	"Foodcycle"	NA
+322	"Citizen groups"	"carbon neutral cambridge"	NA
+323	"Citizen groups"	"Cambridge Sustainable Food (CSF)"	NA
+324	"Citizen groups"	"Cambridge Past Present and Future"	NA
+325	"Citizen groups"	"camemergency"	NA
+326	"Citizen groups"	"smarter cambridge transport"	NA
+327	"Citizen groups"	"Transition Cambridge"	NA
+328	"Citizen groups"	"Cam Valley forum"	NA
+329	"Citizen groups"	"The Wildlife Trust BCN"	NA
+330	"Citizen groups"	"Cambridge Conservation Volunteers"	NA
+331	"Citizen groups"	"Cambridgeshire climate emergency"	NA
+332	"Cambridge city"	"Citizen groups"	NA
+333	"Companies"	"Cambridge food hub"	NA
+334	"Companies"	"CoFarm Cambridge"	NA
+335	"Collegial"	"Darwin College"	NA
+336	"Darwin College"	"Sir David Mackay"	NA
+337	"Societies"	"SCOOP Cambridge"	NA
+338	"Societies"	"CU Wildlife Conservation Trust"	NA
+339	"Collegial"	"Student Switch-Off"	NA
+340	"Green at Queen's"	"Societies"	NA
+341	"Green at Queen's"	"Queens' College"	NA
+342	"Queens' College"	"Collegial"	NA
+343	"Collegial"	"Homerton College"	NA
+344	"Homerton College"	"Homerton College Environmental Society"	NA
+345	"Christ's College"	"Collegial"	NA
+346	"Christ's College"	"Christ's Climate Justice Society"	NA
+347	"KCL Environment Society - EcoSoc"	"King's College"	NA
+348	"King's College"	"Collegial"	NA
+349	"Societies"	"Christ's Climate Justice Society"	NA
+350	"UoC"	"Green Impact Cambridge"	NA
+351	"Environmental Improvement Programme"	"Cambridge city council"	NA
+352	"Greater Cambridge Greenways"	"Cambridge city council"	NA
+353	"Individual Action"	"Citizen groups"	NA
+354	"Companies"	"pen-seneca"	NA
+355	"CUSU Ethical Affairs"	"Societies"	NA
+356	"Climate and Sustainability Forum"	"Societies"	NA
+357	"Positive Investment Cambridge"	"Societies"	NA
+358	"ThinkLab"	"Outreach"	NA
+359	"ThinkLab"	"Cambridge Zero"	NA
+360	"#OneLessCambridge"	"Reuse and recycle"	NA
+361	"Annual Food Agenda"	"Food"	NA
+362	"Cambridge Global Food Security"	"Department of Plant Sciences"	NA
+363	"Cambridge Global Food Security"	"Department of Engineering"	NA
+364	"Greater Cambridge Shared Waste Service"	"Reuse and recycle"	NA
+365	"Sustainability Essentials for Business"	"Cambridge Judge Business School"	NA
+366	"ClimateExp0"	"UK-wide universities"	NA
+367	"UK-wide universities"	"Anglia Ruskin University"	NA
+368	"UK-wide universities"	"UoC"	NA
