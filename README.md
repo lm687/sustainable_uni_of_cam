@@ -44,6 +44,7 @@ url_figures.txt
 To deploy the shiny app, from rstudio, and within the `code/` folder, do
 ```
 rsconnect::deployApp()
+rsconnect::showLogs(streaming = TRUE)
 ```
 
 note that there should be no `rstudioapi()` bits in the code
