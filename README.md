@@ -8,6 +8,8 @@ To see the current version of the interactive plot, click [here](https://lm687.s
 To see the previous version of the interactive plot, click [here](https://lm687.github.io/sustainable_uni_of_cam/html_files.html)
 
 
+![map image](figures/map.png "")
+
 ## FAQs
 - **What is this map?**
 
@@ -42,6 +44,7 @@ url_figures.txt
 To deploy the shiny app, from rstudio, and within the `code/` folder, do
 ```
 rsconnect::deployApp()
+rsconnect::showLogs(streaming = TRUE)
 ```
 
 note that there should be no `rstudioapi()` bits in the code
